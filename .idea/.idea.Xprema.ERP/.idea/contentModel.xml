@@ -213,46 +213,8 @@
             </e>
           </e>
           <e p="Migrations" t="Include">
-            <e p="20170424115119_Initial_Migrations.cs" t="Include" />
-            <e p="20170424115119_Initial_Migrations.Designer.cs" t="Include" />
-            <e p="20170608053244_Upgraded_To_Abp_2_1_0.cs" t="Include" />
-            <e p="20170608053244_Upgraded_To_Abp_2_1_0.Designer.cs" t="Include" />
-            <e p="20170621153937_Added_Description_And_IsActive_To_Role.cs" t="Include" />
-            <e p="20170621153937_Added_Description_And_IsActive_To_Role.Designer.cs" t="Include" />
-            <e p="20170703134115_Remove_IsActive_From_Role.cs" t="Include" />
-            <e p="20170703134115_Remove_IsActive_From_Role.Designer.cs" t="Include" />
-            <e p="20170804083601_Upgraded_To_Abp_v2.2.2.cs" t="Include" />
-            <e p="20170804083601_Upgraded_To_Abp_v2.2.2.Designer.cs" t="Include" />
-            <e p="20180201051646_Upgraded_To_Abp_v3.4.0.cs" t="Include" />
-            <e p="20180201051646_Upgraded_To_Abp_v3.4.0.Designer.cs" t="Include" />
-            <e p="20180320131229_Upgraded_To_Abp_v3_5_0.cs" t="Include" />
-            <e p="20180320131229_Upgraded_To_Abp_v3_5_0.Designer.cs" t="Include" />
-            <e p="20180509121141_Upgraded_To_Abp_v3_6_1.cs" t="Include" />
-            <e p="20180509121141_Upgraded_To_Abp_v3_6_1.Designer.cs" t="Include" />
-            <e p="20180726102703_Upgrade_ABP_3.8.0.cs" t="Include" />
-            <e p="20180726102703_Upgrade_ABP_3.8.0.Designer.cs" t="Include" />
-            <e p="20180731132139_Upgrade_ABP_3.8.1.cs" t="Include" />
-            <e p="20180731132139_Upgrade_ABP_3.8.1.Designer.cs" t="Include" />
-            <e p="20180927062608_Upgrade_ABP_3.8.3.cs" t="Include" />
-            <e p="20180927062608_Upgrade_ABP_3.8.3.Designer.cs" t="Include" />
-            <e p="20181013103914_Upgraded_To_Abp_v3_9_0.cs" t="Include" />
-            <e p="20181013103914_Upgraded_To_Abp_v3_9_0.Designer.cs" t="Include" />
-            <e p="20190208051931_Upgrade_ABP_4_2_0.cs" t="Include" />
-            <e p="20190208051931_Upgrade_ABP_4_2_0.Designer.cs" t="Include" />
-            <e p="20190703062215_Upgraded_To_Abp_4_7_0.cs" t="Include" />
-            <e p="20190703062215_Upgraded_To_Abp_4_7_0.Designer.cs" t="Include" />
-            <e p="20190719143908_Upgraded_To_Abp_4_8_0.cs" t="Include" />
-            <e p="20190719143908_Upgraded_To_Abp_4_8_0.Designer.cs" t="Include" />
-            <e p="20191216011543_Upgraded_To_Abp_5_1_0.cs" t="Include" />
-            <e p="20191216011543_Upgraded_To_Abp_5_1_0.Designer.cs" t="Include" />
-            <e p="20200220110527_Upgraded_To_Abp_5_2_0.cs" t="Include" />
-            <e p="20200220110527_Upgraded_To_Abp_5_2_0.Designer.cs" t="Include" />
-            <e p="20200320114152_Upgraded_To_Abp_5_4_0.cs" t="Include" />
-            <e p="20200320114152_Upgraded_To_Abp_5_4_0.Designer.cs" t="Include" />
-            <e p="20200604091046_Upgraded_To_Abp_5_9.cs" t="Include" />
-            <e p="20200604091046_Upgraded_To_Abp_5_9.Designer.cs" t="Include" />
-            <e p="20200928141743_Upgraded_To_ABP_5_13_0.cs" t="Include" />
-            <e p="20200928141743_Upgraded_To_ABP_5_13_0.Designer.cs" t="Include" />
+            <e p="20201115213752_Initial_Migrations.cs" t="Include" />
+            <e p="20201115213752_Initial_Migrations.Designer.cs" t="Include" />
             <e p="ERPDbContextModelSnapshot.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
@@ -378,11 +340,6 @@
         <e p="Xprema.ERP.Web.Mvc" t="IncludeRecursive">
           <e p=".gitignore" t="Include" />
           <e p="app.config" t="Include" />
-          <e p="App_Data" t="Include">
-            <e p="Logs" t="Include">
-              <e p="Logs.txt" t="Include" />
-            </e>
-          </e>
           <e p="appsettings.json" t="Include" />
           <e p="appsettings.Staging.json" t="Include" />
           <e p="bin" t="ExcludeRecursive" />

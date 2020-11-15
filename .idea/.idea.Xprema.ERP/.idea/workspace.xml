@@ -15,16 +15,160 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a26bc0e-0d79-43a3-81e2-c998422f2919" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.XpremaERPX.dir/riderModule.iml" afterDir="false" />
+    <list default="true" id="7a26bc0e-0d79-43a3-81e2-c998422f2919" name="Default Changelist" comment="Create work">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Xprema.ERP.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Xprema.ERP.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Xprema.ERP.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Xprema.ERP.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/EntityFrameworkCore/ERPDbContextConfigurer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/EntityFrameworkCore/ERPDbContextConfigurer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170424115119_Initial_Migrations.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170424115119_Initial_Migrations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170608053244_Upgraded_To_Abp_2_1_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170608053244_Upgraded_To_Abp_2_1_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170621153937_Added_Description_And_IsActive_To_Role.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170621153937_Added_Description_And_IsActive_To_Role.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170703134115_Remove_IsActive_From_Role.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170703134115_Remove_IsActive_From_Role.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170804083601_Upgraded_To_Abp_v2.2.2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20170804083601_Upgraded_To_Abp_v2.2.2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180201051646_Upgraded_To_Abp_v3.4.0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180201051646_Upgraded_To_Abp_v3.4.0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180320131229_Upgraded_To_Abp_v3_5_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180320131229_Upgraded_To_Abp_v3_5_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180509121141_Upgraded_To_Abp_v3_6_1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180509121141_Upgraded_To_Abp_v3_6_1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180726102703_Upgrade_ABP_3.8.0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180726102703_Upgrade_ABP_3.8.0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180731132139_Upgrade_ABP_3.8.1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180731132139_Upgrade_ABP_3.8.1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180927062608_Upgrade_ABP_3.8.3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20180927062608_Upgrade_ABP_3.8.3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20181013103914_Upgraded_To_Abp_v3_9_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20181013103914_Upgraded_To_Abp_v3_9_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20190208051931_Upgrade_ABP_4_2_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20190208051931_Upgrade_ABP_4_2_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20190703062215_Upgraded_To_Abp_4_7_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20190703062215_Upgraded_To_Abp_4_7_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20190719143908_Upgraded_To_Abp_4_8_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20190719143908_Upgraded_To_Abp_4_8_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20191216011543_Upgraded_To_Abp_5_1_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20191216011543_Upgraded_To_Abp_5_1_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200220110527_Upgraded_To_Abp_5_2_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200220110527_Upgraded_To_Abp_5_2_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200320114152_Upgraded_To_Abp_5_4_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200320114152_Upgraded_To_Abp_5_4_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200604091046_Upgraded_To_Abp_5_9.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200604091046_Upgraded_To_Abp_5_9.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200928141743_Upgraded_To_ABP_5_13_0.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20200928141743_Upgraded_To_ABP_5_13_0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/ERPDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/ERPDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Xprema.ERP.EntityFrameworkCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Xprema.ERP.EntityFrameworkCore.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Xprema.ERP.EntityFrameworkCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Xprema.ERP.EntityFrameworkCore.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Xprema.ERP.EntityFrameworkCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Xprema.ERP.EntityFrameworkCore.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Xprema.ERP.Migrator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Xprema.ERP.Migrator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Xprema.ERP.Web.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Xprema.ERP.Web.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/appsettings.Staging.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/appsettings.Staging.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Xprema.ERP.Web.Host.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Xprema.ERP.Web.Host.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/App_Data/Logs/Logs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.Staging.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.Staging.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/appsettings.Staging.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/appsettings.Staging.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Xprema.ERP.Web.Mvc.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Xprema.ERP.Web.Mvc.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Xprema.ERP.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Xprema.ERP.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Xprema.ERP.Web.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Xprema.ERP.Web.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +178,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Migrator/appsettings.json" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/appsettings.json" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/appsettings.Staging.json" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.json" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.Staging.json" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/EntityFrameworkCore/ERPDbContextConfigurer.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1kL8jdh6uLLtZNrPGqZJbfSAmoV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,8 +197,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Xprema.ERP.Web.Mvc: Xprema.ERP.Web">
     <configuration name="Xprema.ERP.Migrator" type="DotNetProject" factoryName=".NET Project">
@@ -132,8 +289,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605468647823</updated>
-      <workItem from="1605468655067" duration="342000" />
+      <workItem from="1605468655067" duration="5975000" />
     </task>
+    <task id="LOCAL-00001" summary="init work">
+      <created>1605469300547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605469300547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create work">
+      <created>1605469428863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605469428863</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,5 +326,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="init work" />
+    <MESSAGE value="Create work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create work" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="308" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605473499769">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="308" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1605473499769" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1605473630393">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.23.1440.877@0.23.1440.877" timestamp="1605473630393" />
+    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1605474140114">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605474140114" />
+    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1605474140113">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605474140113" />
+    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1605474140113">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605474140113" />
+    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1605474140114">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605474140114" />
+    <state width="286" height="455" key="HiddenNamespacesPopup" timestamp="1605476126343">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="286" height="455" key="HiddenNamespacesPopup/0.23.1440.877@0.23.1440.877" timestamp="1605476126343" />
+    <state x="308" y="181" key="Vcs.Push.Dialog.v2" timestamp="1605469445927">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="308" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605469445927" />
+    <state x="546" y="336" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605476145105">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="546" y="336" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1440.877@0.23.1440.877" timestamp="1605476145105" />
+    <state x="542" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605469399990">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="542" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1605469399990" />
   </component>
 </project>

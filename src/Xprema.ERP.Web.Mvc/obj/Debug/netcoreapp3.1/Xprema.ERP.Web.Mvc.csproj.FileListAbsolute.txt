@@ -342,6 +342,7 @@
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/MySqlConnector.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Nito.AsyncEx.Context.dll
@@ -352,6 +353,8 @@
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/NUglify.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/PaulMiami.AspNetCore.Mvc.Recaptcha.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Pipelines.Sockets.Unofficial.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/StackExchange.Redis.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
 /Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
