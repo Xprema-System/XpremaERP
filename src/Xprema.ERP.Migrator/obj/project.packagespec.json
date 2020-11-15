@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Migrator/Xprema.ERP.Migrator.csproj",
+    "projectName": "Xprema.ERP.Migrator",
+    "projectPath": "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Migrator/Xprema.ERP.Migrator.csproj",
+    "outputPath": "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Migrator/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://nuget.devexpress.com/q8md4EXDFImLQYJdcKe39pzVJRRRP2LXsEMcFl9ioi7dnxcywK/api": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Core/Xprema.ERP.Core.csproj": {
+            "projectPath": "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Core/Xprema.ERP.Core.csproj"
+          },
+          "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/Xprema.ERP.EntityFrameworkCore.csproj": {
+            "projectPath": "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/Xprema.ERP.EntityFrameworkCore.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Abp.Castle.Log4Net": {
+          "target": "Package",
+          "version": "[5.13.0, )"
+        }
+      },
+      "imports": [
+        "portable-net45+win8+wp8+wpa81",
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+    }
+  }
+}

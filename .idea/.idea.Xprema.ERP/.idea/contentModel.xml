@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.6.1/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="Xprema.ERP.Application" t="IncludeRecursive">
+          <e p="AppConsts.cs" t="Include" />
+          <e p="Authorization" t="Include">
+            <e p="AbpLoginResultTypeHelper.cs" t="Include" />
+            <e p="Accounts" t="Include">
+              <e p="AccountAppService.cs" t="Include" />
+              <e p="Dto" t="Include">
+                <e p="IsTenantAvailableInput.cs" t="Include" />
+                <e p="IsTenantAvailableOutput.cs" t="Include" />
+                <e p="RegisterInput.cs" t="Include" />
+                <e p="RegisterOutput.cs" t="Include" />
+                <e p="TenantAvailabilityState.cs" t="Include" />
+              </e>
+              <e p="IAccountAppService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="ConfigurationAppService.cs" t="Include" />
+            <e p="Dto" t="Include">
+              <e p="ChangeUiThemeInput.cs" t="Include" />
+            </e>
+            <e p="IConfigurationAppService.cs" t="Include" />
+            <e p="Ui" t="Include">
+              <e p="UiThemeInfo.cs" t="Include" />
+              <e p="UiThemes.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ERPApplicationModule.cs" t="Include" />
+          <e p="ERPAppServiceBase.cs" t="Include" />
+          <e p="MultiTenancy" t="Include">
+            <e p="Dto" t="Include">
+              <e p="CreateTenantDto.cs" t="Include" />
+              <e p="PagedTenantResultRequestDto.cs" t="Include" />
+              <e p="TenantDto.cs" t="Include" />
+            </e>
+            <e p="ITenantAppService.cs" t="Include" />
+            <e p="TenantAppService.cs" t="Include" />
+          </e>
+          <e p="Net" t="Include">
+            <e p="MimeTypes" t="Include">
+              <e p="MimeTypeNames.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Application.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Roles" t="Include">
+            <e p="Dto" t="Include">
+              <e p="CreateRoleDto.cs" t="Include" />
+              <e p="FlatPermissionDto.cs" t="Include" />
+              <e p="GetRoleForEditOutput.cs" t="Include" />
+              <e p="GetRolesInput.cs" t="Include" />
+              <e p="PagedRoleResultRequestDto.cs" t="Include" />
+              <e p="PermissionDto.cs" t="Include" />
+              <e p="RoleDto.cs" t="Include" />
+              <e p="RoleEditDto.cs" t="Include" />
+              <e p="RoleListDto.cs" t="Include" />
+              <e p="RoleMapProfile.cs" t="Include" />
+            </e>
+            <e p="IRoleAppService.cs" t="Include" />
+            <e p="RoleAppService.cs" t="Include" />
+          </e>
+          <e p="Sessions" t="Include">
+            <e p="Dto" t="Include">
+              <e p="ApplicationInfoDto.cs" t="Include" />
+              <e p="GetCurrentLoginInformationsOutput.cs" t="Include" />
+              <e p="TenantLoginInfoDto.cs" t="Include" />
+              <e p="UserLoginInfoDto.cs" t="Include" />
+            </e>
+            <e p="ISessionAppService.cs" t="Include" />
+            <e p="SessionAppService.cs" t="Include" />
+          </e>
+          <e p="Users" t="Include">
+            <e p="Dto" t="Include">
+              <e p="ChangePasswordDto.cs" t="Include" />
+              <e p="ChangeUserLanguageDto.cs" t="Include" />
+              <e p="CreateUserDto.cs" t="Include" />
+              <e p="PagedUserResultRequestDto.cs" t="Include" />
+              <e p="ResetPasswordDto.cs" t="Include" />
+              <e p="UserDto.cs" t="Include" />
+              <e p="UserMapProfile.cs" t="Include" />
+            </e>
+            <e p="IUserAppService.cs" t="Include" />
+            <e p="UserAppService.cs" t="Include" />
+          </e>
+          <e p="Xprema.ERP.Application.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Xprema.ERP.Core" t="IncludeRecursive">
+          <e p="AppVersionHelper.cs" t="Include" />
+          <e p="Authorization" t="Include">
+            <e p="ERPAuthorizationProvider.cs" t="Include" />
+            <e p="LoginManager.cs" t="Include" />
+            <e p="PermissionChecker.cs" t="Include" />
+            <e p="PermissionNames.cs" t="Include" />
+            <e p="Roles" t="Include">
+              <e p="AppRoleConfig.cs" t="Include" />
+              <e p="Role.cs" t="Include" />
+              <e p="RoleManager.cs" t="Include" />
+              <e p="RoleStore.cs" t="Include" />
+              <e p="StaticRoleNames.cs" t="Include" />
+            </e>
+            <e p="Users" t="Include">
+              <e p="User.cs" t="Include" />
+              <e p="UserClaimsPrincipalFactory.cs" t="Include" />
+              <e p="UserManager.cs" t="Include" />
+              <e p="UserRegistrationManager.cs" t="Include" />
+              <e p="UserStore.cs" t="Include" />
+            </e>
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="AppConfigurations.cs" t="Include" />
+            <e p="AppSettingNames.cs" t="Include" />
+            <e p="AppSettingProvider.cs" t="Include" />
+          </e>
+          <e p="Editions" t="Include">
+            <e p="EditionManager.cs" t="Include" />
+          </e>
+          <e p="ERPConsts.cs" t="Include" />
+          <e p="ERPCoreModule.cs" t="Include" />
+          <e p="Features" t="Include">
+            <e p="FeatureValueStore.cs" t="Include" />
+          </e>
+          <e p="Identity" t="Include">
+            <e p="IdentityRegistrar.cs" t="Include" />
+            <e p="SecurityStampValidator.cs" t="Include" />
+            <e p="SignInManager.cs" t="Include" />
+          </e>
+          <e p="Localization" t="Include">
+            <e p="ERPLocalizationConfigurer.cs" t="Include" />
+            <e p="SourceFiles" t="Include">
+              <e p="ERP-es.xml" t="Include" />
+              <e p="ERP-fr.xml" t="Include" />
+              <e p="ERP-it.xml" t="Include" />
+              <e p="ERP-ja.xml" t="Include" />
+              <e p="ERP-lt.xml" t="Include" />
+              <e p="ERP-nl.xml" t="Include" />
+              <e p="ERP-pt-BR.xml" t="Include" />
+              <e p="ERP-tr.xml" t="Include" />
+              <e p="ERP-zh-Hans.xml" t="Include" />
+              <e p="ERP.xml" t="Include" />
+            </e>
+          </e>
+          <e p="MultiTenancy" t="Include">
+            <e p="Tenant.cs" t="Include" />
+            <e p="TenantManager.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Core.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Timing" t="Include">
+            <e p="AppTimes.cs" t="Include" />
+          </e>
+          <e p="Validation" t="Include">
+            <e p="ValidationHelper.cs" t="Include" />
+          </e>
+          <e p="Web" t="Include">
+            <e p="WebContentFolderHelper.cs" t="Include" />
+          </e>
+          <e p="Xprema.ERP.Core.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Xprema.ERP.EntityFrameworkCore" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="EntityFrameworkCore" t="Include">
+            <e p="AbpZeroDbMigrator.cs" t="Include" />
+            <e p="ERPDbContext.cs" t="Include" />
+            <e p="ERPDbContextConfigurer.cs" t="Include" />
+            <e p="ERPDbContextFactory.cs" t="Include" />
+            <e p="ERPEntityFrameworkModule.cs" t="Include" />
+            <e p="Repositories" t="Include">
+              <e p="ERPRepositoryBase.cs" t="Include" />
+            </e>
+            <e p="Seed" t="Include">
+              <e p="Host" t="Include">
+                <e p="DefaultEditionCreator.cs" t="Include" />
+                <e p="DefaultLanguagesCreator.cs" t="Include" />
+                <e p="DefaultSettingsCreator.cs" t="Include" />
+                <e p="HostRoleAndUserCreator.cs" t="Include" />
+                <e p="InitialHostDbBuilder.cs" t="Include" />
+              </e>
+              <e p="SeedHelper.cs" t="Include" />
+              <e p="Tenants" t="Include">
+                <e p="DefaultTenantBuilder.cs" t="Include" />
+                <e p="TenantRoleAndUserBuilder.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Migrations" t="Include">
+            <e p="20170424115119_Initial_Migrations.cs" t="Include" />
+            <e p="20170424115119_Initial_Migrations.Designer.cs" t="Include" />
+            <e p="20170608053244_Upgraded_To_Abp_2_1_0.cs" t="Include" />
+            <e p="20170608053244_Upgraded_To_Abp_2_1_0.Designer.cs" t="Include" />
+            <e p="20170621153937_Added_Description_And_IsActive_To_Role.cs" t="Include" />
+            <e p="20170621153937_Added_Description_And_IsActive_To_Role.Designer.cs" t="Include" />
+            <e p="20170703134115_Remove_IsActive_From_Role.cs" t="Include" />
+            <e p="20170703134115_Remove_IsActive_From_Role.Designer.cs" t="Include" />
+            <e p="20170804083601_Upgraded_To_Abp_v2.2.2.cs" t="Include" />
+            <e p="20170804083601_Upgraded_To_Abp_v2.2.2.Designer.cs" t="Include" />
+            <e p="20180201051646_Upgraded_To_Abp_v3.4.0.cs" t="Include" />
+            <e p="20180201051646_Upgraded_To_Abp_v3.4.0.Designer.cs" t="Include" />
+            <e p="20180320131229_Upgraded_To_Abp_v3_5_0.cs" t="Include" />
+            <e p="20180320131229_Upgraded_To_Abp_v3_5_0.Designer.cs" t="Include" />
+            <e p="20180509121141_Upgraded_To_Abp_v3_6_1.cs" t="Include" />
+            <e p="20180509121141_Upgraded_To_Abp_v3_6_1.Designer.cs" t="Include" />
+            <e p="20180726102703_Upgrade_ABP_3.8.0.cs" t="Include" />
+            <e p="20180726102703_Upgrade_ABP_3.8.0.Designer.cs" t="Include" />
+            <e p="20180731132139_Upgrade_ABP_3.8.1.cs" t="Include" />
+            <e p="20180731132139_Upgrade_ABP_3.8.1.Designer.cs" t="Include" />
+            <e p="20180927062608_Upgrade_ABP_3.8.3.cs" t="Include" />
+            <e p="20180927062608_Upgrade_ABP_3.8.3.Designer.cs" t="Include" />
+            <e p="20181013103914_Upgraded_To_Abp_v3_9_0.cs" t="Include" />
+            <e p="20181013103914_Upgraded_To_Abp_v3_9_0.Designer.cs" t="Include" />
+            <e p="20190208051931_Upgrade_ABP_4_2_0.cs" t="Include" />
+            <e p="20190208051931_Upgrade_ABP_4_2_0.Designer.cs" t="Include" />
+            <e p="20190703062215_Upgraded_To_Abp_4_7_0.cs" t="Include" />
+            <e p="20190703062215_Upgraded_To_Abp_4_7_0.Designer.cs" t="Include" />
+            <e p="20190719143908_Upgraded_To_Abp_4_8_0.cs" t="Include" />
+            <e p="20190719143908_Upgraded_To_Abp_4_8_0.Designer.cs" t="Include" />
+            <e p="20191216011543_Upgraded_To_Abp_5_1_0.cs" t="Include" />
+            <e p="20191216011543_Upgraded_To_Abp_5_1_0.Designer.cs" t="Include" />
+            <e p="20200220110527_Upgraded_To_Abp_5_2_0.cs" t="Include" />
+            <e p="20200220110527_Upgraded_To_Abp_5_2_0.Designer.cs" t="Include" />
+            <e p="20200320114152_Upgraded_To_Abp_5_4_0.cs" t="Include" />
+            <e p="20200320114152_Upgraded_To_Abp_5_4_0.Designer.cs" t="Include" />
+            <e p="20200604091046_Upgraded_To_Abp_5_9.cs" t="Include" />
+            <e p="20200604091046_Upgraded_To_Abp_5_9.Designer.cs" t="Include" />
+            <e p="20200928141743_Upgraded_To_ABP_5_13_0.cs" t="Include" />
+            <e p="20200928141743_Upgraded_To_ABP_5_13_0.Designer.cs" t="Include" />
+            <e p="ERPDbContextModelSnapshot.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.EntityFrameworkCore.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Xprema.ERP.EntityFrameworkCore.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Xprema.ERP.Migrator" t="IncludeRecursive">
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="DependencyInjection" t="Include">
+            <e p="ServiceCollectionRegistrar.cs" t="Include" />
+          </e>
+          <e p="ERPMigratorModule.cs" t="Include" />
+          <e p="Log.cs" t="Include" />
+          <e p="log4net.config" t="Include" />
+          <e p="MultiTenantMigrateExecuter.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Migrator.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Xprema.ERP.Migrator.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Xprema.ERP.Web.Core" t="IncludeRecursive">
+          <e p="Authentication" t="Include">
+            <e p="External" t="Include">
+              <e p="ExternalAuthConfiguration.cs" t="Include" />
+              <e p="ExternalAuthManager.cs" t="Include" />
+              <e p="ExternalAuthProviderApiBase.cs" t="Include" />
+              <e p="ExternalAuthUserInfo.cs" t="Include" />
+              <e p="ExternalLoginProviderInfo.cs" t="Include" />
+              <e p="IExternalAuthConfiguration.cs" t="Include" />
+              <e p="IExternalAuthManager.cs" t="Include" />
+              <e p="IExternalAuthProviderApi.cs" t="Include" />
+            </e>
+            <e p="JwtBearer" t="Include">
+              <e p="JwtTokenMiddleware.cs" t="Include" />
+              <e p="TokenAuthConfiguration.cs" t="Include" />
+            </e>
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Configuration" t="Include">
+            <e p="HostingEnvironmentExtensions.cs" t="Include" />
+          </e>
+          <e p="Controllers" t="Include">
+            <e p="ERPControllerBase.cs" t="Include" />
+            <e p="TokenAuthController.cs" t="Include" />
+          </e>
+          <e p="ERPWebCoreModule.cs" t="Include" />
+          <e p="Identity" t="Include">
+            <e p="ExternalLoginInfoHelper.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="TokenAuth" t="Include">
+              <e p="AuthenticateModel.cs" t="Include" />
+              <e p="AuthenticateResultModel.cs" t="Include" />
+              <e p="ExternalAuthenticateModel.cs" t="Include" />
+              <e p="ExternalAuthenticateResultModel.cs" t="Include" />
+              <e p="ExternalLoginProviderInfoModel.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Web.Core.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Xprema.ERP.Web.Core.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Xprema.ERP.Web.Host" t="IncludeRecursive">
+          <e p="app.config" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="appsettings.Staging.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Controllers" t="Include">
+            <e p="AntiForgeryController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+          </e>
+          <e p="Dockerfile" t="Include" />
+          <e p="log4net.config" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Web.Host.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Startup" t="Include">
+            <e p="AuthConfigurer.cs" t="Include" />
+            <e p="ERPWebHostModule.cs" t="Include" />
+            <e p="Program.cs" t="Include" />
+            <e p="Startup.cs" t="Include" />
+          </e>
+          <e p="wwwroot" t="Include">
+            <e p="swagger" t="Include">
+              <e p="Ui" t="Include">
+                <e p="abp.js" t="Include" />
+                <e p="abp.swagger.js" t="Include" />
+                <e p="index.html" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Xprema.ERP.Web.Host.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Xprema.ERP.Web.Mvc" t="IncludeRecursive">
+          <e p=".gitignore" t="Include" />
+          <e p="app.config" t="Include" />
+          <e p="App_Data" t="Include">
+            <e p="Logs" t="Include">
+              <e p="Logs.txt" t="Include" />
+            </e>
+          </e>
+          <e p="appsettings.json" t="Include" />
+          <e p="appsettings.Staging.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="bundleconfig.json" t="Include" />
+          <e p="compilerconfig.json" t="Include" />
+          <e p="compilerconfig.json.defaults" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="AboutController.cs" t="Include" />
+            <e p="AccountController.cs" t="Include" />
+            <e p="ErrorController.cs" t="Include" />
+            <e p="HomeController.cs" t="Include" />
+            <e p="RolesController.cs" t="Include" />
+            <e p="TenantsController.cs" t="Include" />
+            <e p="UsersController.cs" t="Include" />
+          </e>
+          <e p="Dockerfile" t="Include" />
+          <e p="libman.json" t="Include" />
+          <e p="log4net.config" t="Include" />
+          <e p="Models" t="Include">
+            <e p="Account" t="Include">
+              <e p="LoginFormViewModel.cs" t="Include" />
+              <e p="LoginViewModel.cs" t="Include" />
+              <e p="RegisterResultViewModel.cs" t="Include" />
+              <e p="RegisterViewModel.cs" t="Include" />
+            </e>
+            <e p="Common" t="Include">
+              <e p="IPermissionsEditViewModel.cs" t="Include" />
+              <e p="Modals" t="Include">
+                <e p="ModalHeaderViewModel.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Roles" t="Include">
+              <e p="EditRoleModalViewModel.cs" t="Include" />
+              <e p="RoleListViewModel.cs" t="Include" />
+            </e>
+            <e p="Users" t="Include">
+              <e p="EditUserModalViewModel.cs" t="Include" />
+              <e p="UserListViewModel.cs" t="Include" />
+            </e>
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Web.Mvc.AssemblyInfo.cs" t="Include" />
+                <e p="Xprema.ERP.Web.Mvc.RazorAssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="IWebResourceManager.cs" t="Include" />
+            <e p="WebResourceManager.cs" t="Include" />
+          </e>
+          <e p="Startup" t="Include">
+            <e p="AuthConfigurer.cs" t="Include" />
+            <e p="ERPNavigationProvider.cs" t="Include" />
+            <e p="ERPWebMvcModule.cs" t="Include" />
+            <e p="PageNames.cs" t="Include" />
+            <e p="Program.cs" t="Include" />
+            <e p="Startup.cs" t="Include" />
+          </e>
+          <e p="Views" t="Include">
+            <e p="_ViewImports.cshtml" t="Include" />
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="About" t="Include">
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="Account" t="Include">
+              <e p="_Layout.cshtml" t="Include" />
+              <e p="_Scripts.cshtml" t="Include" />
+              <e p="_Styles.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Login.cshtml" t="Include" />
+              <e p="Register.cshtml" t="Include" />
+              <e p="RegisterResult.cshtml" t="Include" />
+            </e>
+            <e p="ERPRazorPage.cs" t="Include" />
+            <e p="ERPViewComponent.cs" t="Include" />
+            <e p="Home" t="Include">
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="Roles" t="Include">
+              <e p="_CreateModal.cshtml" t="Include" />
+              <e p="_EditModal.cshtml" t="Include" />
+              <e p="Index.AdvancedSearch.cshtml" t="Include" />
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="Shared" t="Include">
+              <e p="Components" t="Include">
+                <e p="AccountLanguages" t="Include">
+                  <e p="AccountLanguagesViewComponent.cs" t="Include" />
+                  <e p="Default.cshtml" t="Include" />
+                  <e p="LanguageSelectionViewModel.cs" t="Include" />
+                </e>
+                <e p="RightNavbarLanguageSwitch" t="Include">
+                  <e p="Default.cshtml" t="Include" />
+                  <e p="RightNavbarLanguageSwitchViewComponent.cs" t="Include" />
+                  <e p="RightNavbarLanguageSwitchViewModel.cs" t="Include" />
+                </e>
+                <e p="RightNavbarUserArea" t="Include">
+                  <e p="Default.cshtml" t="Include" />
+                  <e p="RightNavbarUserAreaViewComponent.cs" t="Include" />
+                  <e p="RightNavbarUserAreaViewModel.cs" t="Include" />
+                </e>
+                <e p="SideBarMenu" t="Include">
+                  <e p="_MenuItem.cshtml" t="Include" />
+                  <e p="Default.cshtml" t="Include" />
+                  <e p="SideBarMenuViewComponent.cs" t="Include" />
+                  <e p="SideBarMenuViewModel.cs" t="Include" />
+                  <e p="UserMenuItemExtensions.cs" t="Include" />
+                </e>
+                <e p="SideBarUserArea" t="Include">
+                  <e p="Default.cshtml" t="Include" />
+                  <e p="SideBarUserAreaViewComponent.cs" t="Include" />
+                  <e p="SideBarUserAreaViewModel.cs" t="Include" />
+                </e>
+                <e p="TenantChange" t="Include">
+                  <e p="_ChangeModal.cshtml" t="Include" />
+                  <e p="ChangeModalViewModel.cs" t="Include" />
+                  <e p="Default.cshtml" t="Include" />
+                  <e p="TenantChangeViewComponent.cs" t="Include" />
+                  <e p="TenantChangeViewModel.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Error.cshtml" t="Include" />
+              <e p="Layout" t="Include">
+                <e p="_Alerts.cshtml" t="Include" />
+                <e p="_Footer.cshtml" t="Include" />
+                <e p="_Header.cshtml" t="Include" />
+                <e p="_Header.LeftNavbar.cshtml" t="Include" />
+                <e p="_Header.RightNavbar.cshtml" t="Include" />
+                <e p="_Layout.cshtml" t="Include" />
+                <e p="_Scripts.cshtml" t="Include" />
+                <e p="_SideBar.cshtml" t="Include" />
+                <e p="_SideBar.Logo.cshtml" t="Include" />
+                <e p="_Styles.cshtml" t="Include" />
+              </e>
+              <e p="Modals" t="Include">
+                <e p="_ModalFooterWithSaveAndCancel.cshtml" t="Include" />
+                <e p="_ModalHeader.cshtml" t="Include" />
+              </e>
+            </e>
+            <e p="Tenants" t="Include">
+              <e p="_CreateModal.cshtml" t="Include" />
+              <e p="_EditModal.cshtml" t="Include" />
+              <e p="Index.AdvancedSearch.cshtml" t="Include" />
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="UrlChecker.cs" t="Include" />
+            <e p="Users" t="Include">
+              <e p="_CreateModal.cshtml" t="Include" />
+              <e p="_EditModal.cshtml" t="Include" />
+              <e p="ChangePassword.cshtml" t="Include" />
+              <e p="Index.AdvancedSearch.cshtml" t="Include" />
+              <e p="Index.cshtml" t="Include" />
+            </e>
+          </e>
+          <e p="wwwroot" t="Include">
+            <e p="css" t="Include">
+              <e p="style.css" t="Include" />
+              <e p="style.min.css" t="Include" />
+            </e>
+            <e p="img" t="Include">
+              <e p="favicon.ico" t="Include" />
+              <e p="logo.png" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="abp.dataTable.js" t="Include" />
+              <e p="main.js" t="Include" />
+            </e>
+            <e p="libs" t="Include" />
+            <e p="libs-ext" t="Include">
+              <e p="famfamfam-flags" t="Include">
+                <e p="aliases.json" t="Include" />
+                <e p="CHANGELOG.md" t="Include" />
+                <e p="dist" t="Include">
+                  <e p="gif" t="Include">
+                    <e p="ad.gif" t="Include" />
+                    <e p="ae.gif" t="Include" />
+                    <e p="af.gif" t="Include" />
+                    <e p="ag.gif" t="Include" />
+                    <e p="ai.gif" t="Include" />
+                    <e p="al.gif" t="Include" />
+                    <e p="am.gif" t="Include" />
+                    <e p="an.gif" t="Include" />
+                    <e p="ao.gif" t="Include" />
+                    <e p="ar.gif" t="Include" />
+                    <e p="as.gif" t="Include" />
+                    <e p="at.gif" t="Include" />
+                    <e p="au.gif" t="Include" />
+                    <e p="aw.gif" t="Include" />
+                    <e p="ax.gif" t="Include" />
+                    <e p="az.gif" t="Include" />
+                    <e p="ba.gif" t="Include" />
+                    <e p="bb.gif" t="Include" />
+                    <e p="bd.gif" t="Include" />
+                    <e p="be.gif" t="Include" />
+                    <e p="bf.gif" t="Include" />
+                    <e p="bg.gif" t="Include" />
+                    <e p="bh.gif" t="Include" />
+                    <e p="bi.gif" t="Include" />
+                    <e p="bj.gif" t="Include" />
+                    <e p="bm.gif" t="Include" />
+                    <e p="bn.gif" t="Include" />
+                    <e p="bo.gif" t="Include" />
+                    <e p="br.gif" t="Include" />
+                    <e p="bs.gif" t="Include" />
+                    <e p="bt.gif" t="Include" />
+                    <e p="bv.gif" t="Include" />
+                    <e p="bw.gif" t="Include" />
+                    <e p="by.gif" t="Include" />
+                    <e p="bz.gif" t="Include" />
+                    <e p="ca.gif" t="Include" />
+                    <e p="catalonia.gif" t="Include" />
+                    <e p="cc.gif" t="Include" />
+                    <e p="cd.gif" t="Include" />
+                    <e p="cf.gif" t="Include" />
+                    <e p="cg.gif" t="Include" />
+                    <e p="ch.gif" t="Include" />
+                    <e p="ci.gif" t="Include" />
+                    <e p="ck.gif" t="Include" />
+                    <e p="cl.gif" t="Include" />
+                    <e p="cm.gif" t="Include" />
+                    <e p="cn.gif" t="Include" />
+                    <e p="co.gif" t="Include" />
+                    <e p="cr.gif" t="Include" />
+                    <e p="cs.gif" t="Include" />
+                    <e p="cu.gif" t="Include" />
+                    <e p="cv.gif" t="Include" />
+                    <e p="cx.gif" t="Include" />
+                    <e p="cy.gif" t="Include" />
+                    <e p="cz.gif" t="Include" />
+                    <e p="de.gif" t="Include" />
+                    <e p="dj.gif" t="Include" />
+                    <e p="dk.gif" t="Include" />
+                    <e p="dm.gif" t="Include" />
+                    <e p="do.gif" t="Include" />
+                    <e p="dz.gif" t="Include" />
+                    <e p="ec.gif" t="Include" />
+                    <e p="ee.gif" t="Include" />
+                    <e p="eg.gif" t="Include" />
+                    <e p="eh.gif" t="Include" />
+                    <e p="england.gif" t="Include" />
+                    <e p="er.gif" t="Include" />
+                    <e p="es.gif" t="Include" />
+                    <e p="et.gif" t="Include" />
+                    <e p="europeanunion.gif" t="Include" />
+                    <e p="fam.gif" t="Include" />
+                    <e p="fi.gif" t="Include" />
+                    <e p="fj.gif" t="Include" />
+                    <e p="fk.gif" t="Include" />
+                    <e p="fm.gif" t="Include" />
+                    <e p="fo.gif" t="Include" />
+                    <e p="fr.gif" t="Include" />
+                    <e p="ga.gif" t="Include" />
+                    <e p="gb.gif" t="Include" />
+                    <e p="gd.gif" t="Include" />
+                    <e p="ge.gif" t="Include" />
+                    <e p="gf.gif" t="Include" />
+                    <e p="gg.gif" t="Include" />
+                    <e p="gh.gif" t="Include" />
+                    <e p="gi.gif" t="Include" />
+                    <e p="gl.gif" t="Include" />
+                    <e p="gm.gif" t="Include" />
+                    <e p="gn.gif" t="Include" />
+                    <e p="gp.gif" t="Include" />
+                    <e p="gq.gif" t="Include" />
+                    <e p="gr.gif" t="Include" />
+                    <e p="gs.gif" t="Include" />
+                    <e p="gt.gif" t="Include" />
+                    <e p="gu.gif" t="Include" />
+                    <e p="gw.gif" t="Include" />
+                    <e p="gy.gif" t="Include" />
+                    <e p="hk.gif" t="Include" />
+                    <e p="hm.gif" t="Include" />
+                    <e p="hn.gif" t="Include" />
+                    <e p="hr.gif" t="Include" />
+                    <e p="ht.gif" t="Include" />
+                    <e p="hu.gif" t="Include" />
+                    <e p="id.gif" t="Include" />
+                    <e p="ie.gif" t="Include" />
+                    <e p="il.gif" t="Include" />
+                    <e p="in.gif" t="Include" />
+                    <e p="io.gif" t="Include" />
+                    <e p="iq.gif" t="Include" />
+                    <e p="ir.gif" t="Include" />
+                    <e p="is.gif" t="Include" />
+                    <e p="it.gif" t="Include" />
+                    <e p="je.gif" t="Include" />
+                    <e p="jm.gif" t="Include" />
+                    <e p="jo.gif" t="Include" />
+                    <e p="jp.gif" t="Include" />
+                    <e p="ke.gif" t="Include" />
+                    <e p="kg.gif" t="Include" />
+                    <e p="kh.gif" t="Include" />
+                    <e p="ki.gif" t="Include" />
+                    <e p="km.gif" t="Include" />
+                    <e p="kn.gif" t="Include" />
+                    <e p="kp.gif" t="Include" />
+                    <e p="kr.gif" t="Include" />
+                    <e p="kw.gif" t="Include" />
+                    <e p="ky.gif" t="Include" />
+                    <e p="kz.gif" t="Include" />
+                    <e p="la.gif" t="Include" />
+                    <e p="lb.gif" t="Include" />
+                    <e p="lc.gif" t="Include" />
+                    <e p="li.gif" t="Include" />
+                    <e p="lk.gif" t="Include" />
+                    <e p="lr.gif" t="Include" />
+                    <e p="ls.gif" t="Include" />
+                    <e p="lt.gif" t="Include" />
+                    <e p="lu.gif" t="Include" />
+                    <e p="lv.gif" t="Include" />
+                    <e p="ly.gif" t="Include" />
+                    <e p="ma.gif" t="Include" />
+                    <e p="mc.gif" t="Include" />
+                    <e p="md.gif" t="Include" />
+                    <e p="me.gif" t="Include" />
+                    <e p="mg.gif" t="Include" />
+                    <e p="mh.gif" t="Include" />
+                    <e p="mk.gif" t="Include" />
+                    <e p="ml.gif" t="Include" />
+                    <e p="mm.gif" t="Include" />
+                    <e p="mn.gif" t="Include" />
+                    <e p="mo.gif" t="Include" />
+                    <e p="mp.gif" t="Include" />
+                    <e p="mq.gif" t="Include" />
+                    <e p="mr.gif" t="Include" />
+                    <e p="ms.gif" t="Include" />
+                    <e p="mt.gif" t="Include" />
+                    <e p="mu.gif" t="Include" />
+                    <e p="mv.gif" t="Include" />
+                    <e p="mw.gif" t="Include" />
+                    <e p="mx.gif" t="Include" />
+                    <e p="my.gif" t="Include" />
+                    <e p="mz.gif" t="Include" />
+                    <e p="na.gif" t="Include" />
+                    <e p="nc.gif" t="Include" />
+                    <e p="ne.gif" t="Include" />
+                    <e p="nf.gif" t="Include" />
+                    <e p="ng.gif" t="Include" />
+                    <e p="ni.gif" t="Include" />
+                    <e p="nl.gif" t="Include" />
+                    <e p="no.gif" t="Include" />
+                    <e p="np.gif" t="Include" />
+                    <e p="nr.gif" t="Include" />
+                    <e p="nu.gif" t="Include" />
+                    <e p="nz.gif" t="Include" />
+                    <e p="om.gif" t="Include" />
+                    <e p="pa.gif" t="Include" />
+                    <e p="pe.gif" t="Include" />
+                    <e p="pf.gif" t="Include" />
+                    <e p="pg.gif" t="Include" />
+                    <e p="ph.gif" t="Include" />
+                    <e p="pk.gif" t="Include" />
+                    <e p="pl.gif" t="Include" />
+                    <e p="pm.gif" t="Include" />
+                    <e p="pn.gif" t="Include" />
+                    <e p="pr.gif" t="Include" />
+                    <e p="ps.gif" t="Include" />
+                    <e p="pt.gif" t="Include" />
+                    <e p="pw.gif" t="Include" />
+                    <e p="py.gif" t="Include" />
+                    <e p="qa.gif" t="Include" />
+                    <e p="re.gif" t="Include" />
+                    <e p="ro.gif" t="Include" />
+                    <e p="rs.gif" t="Include" />
+                    <e p="ru.gif" t="Include" />
+                    <e p="rw.gif" t="Include" />
+                    <e p="sa.gif" t="Include" />
+                    <e p="sb.gif" t="Include" />
+                    <e p="sc.gif" t="Include" />
+                    <e p="scotland.gif" t="Include" />
+                    <e p="sd.gif" t="Include" />
+                    <e p="se.gif" t="Include" />
+                    <e p="sg.gif" t="Include" />
+                    <e p="sh.gif" t="Include" />
+                    <e p="si.gif" t="Include" />
+                    <e p="sj.gif" t="Include" />
+                    <e p="sk.gif" t="Include" />
+                    <e p="sl.gif" t="Include" />
+                    <e p="sm.gif" t="Include" />
+                    <e p="sn.gif" t="Include" />
+                    <e p="so.gif" t="Include" />
+                    <e p="sr.gif" t="Include" />
+                    <e p="st.gif" t="Include" />
+                    <e p="sv.gif" t="Include" />
+                    <e p="sy.gif" t="Include" />
+                    <e p="sz.gif" t="Include" />
+                    <e p="tc.gif" t="Include" />
+                    <e p="td.gif" t="Include" />
+                    <e p="tf.gif" t="Include" />
+                    <e p="tg.gif" t="Include" />
+                    <e p="th.gif" t="Include" />
+                    <e p="tj.gif" t="Include" />
+                    <e p="tk.gif" t="Include" />
+                    <e p="tl.gif" t="Include" />
+                    <e p="tm.gif" t="Include" />
+                    <e p="tn.gif" t="Include" />
+                    <e p="to.gif" t="Include" />
+                    <e p="tr.gif" t="Include" />
+                    <e p="tt.gif" t="Include" />
+                    <e p="tv.gif" t="Include" />
+                    <e p="tw.gif" t="Include" />
+                    <e p="tz.gif" t="Include" />
+                    <e p="ua.gif" t="Include" />
+                    <e p="ug.gif" t="Include" />
+                    <e p="um.gif" t="Include" />
+                    <e p="us.gif" t="Include" />
+                    <e p="uy.gif" t="Include" />
+                    <e p="uz.gif" t="Include" />
+                    <e p="va.gif" t="Include" />
+                    <e p="vc.gif" t="Include" />
+                    <e p="ve.gif" t="Include" />
+                    <e p="vg.gif" t="Include" />
+                    <e p="vi.gif" t="Include" />
+                    <e p="vn.gif" t="Include" />
+                    <e p="vu.gif" t="Include" />
+                    <e p="wales.gif" t="Include" />
+                    <e p="wf.gif" t="Include" />
+                    <e p="ws.gif" t="Include" />
+                    <e p="ye.gif" t="Include" />
+                    <e p="yt.gif" t="Include" />
+                    <e p="za.gif" t="Include" />
+                    <e p="zm.gif" t="Include" />
+                    <e p="zw.gif" t="Include" />
+                  </e>
+                  <e p="png" t="Include">
+                    <e p="ad.png" t="Include" />
+                    <e p="ae.png" t="Include" />
+                    <e p="af.png" t="Include" />
+                    <e p="ag.png" t="Include" />
+                    <e p="ai.png" t="Include" />
+                    <e p="al.png" t="Include" />
+                    <e p="am.png" t="Include" />
+                    <e p="an.png" t="Include" />
+                    <e p="ao.png" t="Include" />
+                    <e p="ar.png" t="Include" />
+                    <e p="as.png" t="Include" />
+                    <e p="at.png" t="Include" />
+                    <e p="au.png" t="Include" />
+                    <e p="aw.png" t="Include" />
+                    <e p="ax.png" t="Include" />
+                    <e p="az.png" t="Include" />
+                    <e p="ba.png" t="Include" />
+                    <e p="bb.png" t="Include" />
+                    <e p="bd.png" t="Include" />
+                    <e p="be.png" t="Include" />
+                    <e p="bf.png" t="Include" />
+                    <e p="bg.png" t="Include" />
+                    <e p="bh.png" t="Include" />
+                    <e p="bi.png" t="Include" />
+                    <e p="bj.png" t="Include" />
+                    <e p="bm.png" t="Include" />
+                    <e p="bn.png" t="Include" />
+                    <e p="bo.png" t="Include" />
+                    <e p="br.png" t="Include" />
+                    <e p="bs.png" t="Include" />
+                    <e p="bt.png" t="Include" />
+                    <e p="bv.png" t="Include" />
+                    <e p="bw.png" t="Include" />
+                    <e p="by.png" t="Include" />
+                    <e p="bz.png" t="Include" />
+                    <e p="ca.png" t="Include" />
+                    <e p="catalonia.png" t="Include" />
+                    <e p="cc.png" t="Include" />
+                    <e p="cd.png" t="Include" />
+                    <e p="cf.png" t="Include" />
+                    <e p="cg.png" t="Include" />
+                    <e p="ch.png" t="Include" />
+                    <e p="ci.png" t="Include" />
+                    <e p="ck.png" t="Include" />
+                    <e p="cl.png" t="Include" />
+                    <e p="cm.png" t="Include" />
+                    <e p="cn.png" t="Include" />
+                    <e p="co.png" t="Include" />
+                    <e p="cr.png" t="Include" />
+                    <e p="cs.png" t="Include" />
+                    <e p="cu.png" t="Include" />
+                    <e p="cv.png" t="Include" />
+                    <e p="cx.png" t="Include" />
+                    <e p="cy.png" t="Include" />
+                    <e p="cz.png" t="Include" />
+                    <e p="de.png" t="Include" />
+                    <e p="dj.png" t="Include" />
+                    <e p="dk.png" t="Include" />
+                    <e p="dm.png" t="Include" />
+                    <e p="do.png" t="Include" />
+                    <e p="dz.png" t="Include" />
+                    <e p="ec.png" t="Include" />
+                    <e p="ee.png" t="Include" />
+                    <e p="eg.png" t="Include" />
+                    <e p="eh.png" t="Include" />
+                    <e p="england.png" t="Include" />
+                    <e p="er.png" t="Include" />
+                    <e p="es.png" t="Include" />
+                    <e p="et.png" t="Include" />
+                    <e p="europeanunion.png" t="Include" />
+                    <e p="fam.png" t="Include" />
+                    <e p="fi.png" t="Include" />
+                    <e p="fj.png" t="Include" />
+                    <e p="fk.png" t="Include" />
+                    <e p="fm.png" t="Include" />
+                    <e p="fo.png" t="Include" />
+                    <e p="fr.png" t="Include" />
+                    <e p="ga.png" t="Include" />
+                    <e p="gb.png" t="Include" />
+                    <e p="gd.png" t="Include" />
+                    <e p="ge.png" t="Include" />
+                    <e p="gf.png" t="Include" />
+                    <e p="gg.png" t="Include" />
+                    <e p="gh.png" t="Include" />
+                    <e p="gi.png" t="Include" />
+                    <e p="gl.png" t="Include" />
+                    <e p="gm.png" t="Include" />
+                    <e p="gn.png" t="Include" />
+                    <e p="gp.png" t="Include" />
+                    <e p="gq.png" t="Include" />
+                    <e p="gr.png" t="Include" />
+                    <e p="gs.png" t="Include" />
+                    <e p="gt.png" t="Include" />
+                    <e p="gu.png" t="Include" />
+                    <e p="gw.png" t="Include" />
+                    <e p="gy.png" t="Include" />
+                    <e p="hk.png" t="Include" />
+                    <e p="hm.png" t="Include" />
+                    <e p="hn.png" t="Include" />
+                    <e p="hr.png" t="Include" />
+                    <e p="ht.png" t="Include" />
+                    <e p="hu.png" t="Include" />
+                    <e p="id.png" t="Include" />
+                    <e p="ie.png" t="Include" />
+                    <e p="il.png" t="Include" />
+                    <e p="in.png" t="Include" />
+                    <e p="io.png" t="Include" />
+                    <e p="iq.png" t="Include" />
+                    <e p="ir.png" t="Include" />
+                    <e p="is.png" t="Include" />
+                    <e p="it.png" t="Include" />
+                    <e p="je.png" t="Include" />
+                    <e p="jm.png" t="Include" />
+                    <e p="jo.png" t="Include" />
+                    <e p="jp.png" t="Include" />
+                    <e p="ke.png" t="Include" />
+                    <e p="kg.png" t="Include" />
+                    <e p="kh.png" t="Include" />
+                    <e p="ki.png" t="Include" />
+                    <e p="km.png" t="Include" />
+                    <e p="kn.png" t="Include" />
+                    <e p="kp.png" t="Include" />
+                    <e p="kr.png" t="Include" />
+                    <e p="kw.png" t="Include" />
+                    <e p="ky.png" t="Include" />
+                    <e p="kz.png" t="Include" />
+                    <e p="la.png" t="Include" />
+                    <e p="lb.png" t="Include" />
+                    <e p="lc.png" t="Include" />
+                    <e p="li.png" t="Include" />
+                    <e p="lk.png" t="Include" />
+                    <e p="lr.png" t="Include" />
+                    <e p="ls.png" t="Include" />
+                    <e p="lt.png" t="Include" />
+                    <e p="lu.png" t="Include" />
+                    <e p="lv.png" t="Include" />
+                    <e p="ly.png" t="Include" />
+                    <e p="ma.png" t="Include" />
+                    <e p="mc.png" t="Include" />
+                    <e p="md.png" t="Include" />
+                    <e p="me.png" t="Include" />
+                    <e p="mg.png" t="Include" />
+                    <e p="mh.png" t="Include" />
+                    <e p="mk.png" t="Include" />
+                    <e p="ml.png" t="Include" />
+                    <e p="mm.png" t="Include" />
+                    <e p="mn.png" t="Include" />
+                    <e p="mo.png" t="Include" />
+                    <e p="mp.png" t="Include" />
+                    <e p="mq.png" t="Include" />
+                    <e p="mr.png" t="Include" />
+                    <e p="ms.png" t="Include" />
+                    <e p="mt.png" t="Include" />
+                    <e p="mu.png" t="Include" />
+                    <e p="mv.png" t="Include" />
+                    <e p="mw.png" t="Include" />
+                    <e p="mx.png" t="Include" />
+                    <e p="my.png" t="Include" />
+                    <e p="mz.png" t="Include" />
+                    <e p="na.png" t="Include" />
+                    <e p="nc.png" t="Include" />
+                    <e p="ne.png" t="Include" />
+                    <e p="nf.png" t="Include" />
+                    <e p="ng.png" t="Include" />
+                    <e p="ni.png" t="Include" />
+                    <e p="nl.png" t="Include" />
+                    <e p="no.png" t="Include" />
+                    <e p="np.png" t="Include" />
+                    <e p="nr.png" t="Include" />
+                    <e p="nu.png" t="Include" />
+                    <e p="nz.png" t="Include" />
+                    <e p="om.png" t="Include" />
+                    <e p="pa.png" t="Include" />
+                    <e p="pe.png" t="Include" />
+                    <e p="pf.png" t="Include" />
+                    <e p="pg.png" t="Include" />
+                    <e p="ph.png" t="Include" />
+                    <e p="pk.png" t="Include" />
+                    <e p="pl.png" t="Include" />
+                    <e p="pm.png" t="Include" />
+                    <e p="pn.png" t="Include" />
+                    <e p="pr.png" t="Include" />
+                    <e p="ps.png" t="Include" />
+                    <e p="pt.png" t="Include" />
+                    <e p="pw.png" t="Include" />
+                    <e p="py.png" t="Include" />
+                    <e p="qa.png" t="Include" />
+                    <e p="re.png" t="Include" />
+                    <e p="ro.png" t="Include" />
+                    <e p="rs.png" t="Include" />
+                    <e p="ru.png" t="Include" />
+                    <e p="rw.png" t="Include" />
+                    <e p="sa.png" t="Include" />
+                    <e p="sb.png" t="Include" />
+                    <e p="sc.png" t="Include" />
+                    <e p="scotland.png" t="Include" />
+                    <e p="sd.png" t="Include" />
+                    <e p="se.png" t="Include" />
+                    <e p="sg.png" t="Include" />
+                    <e p="sh.png" t="Include" />
+                    <e p="si.png" t="Include" />
+                    <e p="sj.png" t="Include" />
+                    <e p="sk.png" t="Include" />
+                    <e p="sl.png" t="Include" />
+                    <e p="sm.png" t="Include" />
+                    <e p="sn.png" t="Include" />
+                    <e p="so.png" t="Include" />
+                    <e p="sr.png" t="Include" />
+                    <e p="st.png" t="Include" />
+                    <e p="sv.png" t="Include" />
+                    <e p="sy.png" t="Include" />
+                    <e p="sz.png" t="Include" />
+                    <e p="tc.png" t="Include" />
+                    <e p="td.png" t="Include" />
+                    <e p="tf.png" t="Include" />
+                    <e p="tg.png" t="Include" />
+                    <e p="th.png" t="Include" />
+                    <e p="tj.png" t="Include" />
+                    <e p="tk.png" t="Include" />
+                    <e p="tl.png" t="Include" />
+                    <e p="tm.png" t="Include" />
+                    <e p="tn.png" t="Include" />
+                    <e p="to.png" t="Include" />
+                    <e p="tr.png" t="Include" />
+                    <e p="tt.png" t="Include" />
+                    <e p="tv.png" t="Include" />
+                    <e p="tw.png" t="Include" />
+                    <e p="tz.png" t="Include" />
+                    <e p="ua.png" t="Include" />
+                    <e p="ug.png" t="Include" />
+                    <e p="um.png" t="Include" />
+                    <e p="us.png" t="Include" />
+                    <e p="uy.png" t="Include" />
+                    <e p="uz.png" t="Include" />
+                    <e p="va.png" t="Include" />
+                    <e p="vc.png" t="Include" />
+                    <e p="ve.png" t="Include" />
+                    <e p="vg.png" t="Include" />
+                    <e p="vi.png" t="Include" />
+                    <e p="vn.png" t="Include" />
+                    <e p="vu.png" t="Include" />
+                    <e p="wales.png" t="Include" />
+                    <e p="wf.png" t="Include" />
+                    <e p="ws.png" t="Include" />
+                    <e p="ye.png" t="Include" />
+                    <e p="yt.png" t="Include" />
+                    <e p="za.png" t="Include" />
+                    <e p="zm.png" t="Include" />
+                    <e p="zw.png" t="Include" />
+                  </e>
+                  <e p="sprite" t="Include">
+                    <e p="famfamfam-flags.css" t="Include" />
+                    <e p="famfamfam-flags.min.css" t="Include" />
+                    <e p="famfamfam-flags.png" t="Include" />
+                  </e>
+                </e>
+                <e p="LICENSE.md" t="Include" />
+                <e p="README.md" t="Include" />
+              </e>
+              <e p="spin" t="Include">
+                <e p="jquery.spin.js" t="Include" />
+              </e>
+            </e>
+            <e p="scss" t="Include">
+              <e p="_custom.scss" t="Include" />
+              <e p="style.scss" t="Include" />
+            </e>
+            <e p="view-resources" t="Include">
+              <e p="Views" t="Include">
+                <e p="_Bundles" t="Include">
+                  <e p="account-layout.min.css" t="Include" />
+                  <e p="account-layout.min.js" t="Include" />
+                  <e p="home-index.min.js" t="Include" />
+                  <e p="shared-layout.min.css" t="Include" />
+                  <e p="shared-layout.min.js" t="Include" />
+                </e>
+                <e p="Account" t="Include">
+                  <e p="_Layout.css" t="Include" />
+                  <e p="_Layout.scss" t="Include" />
+                  <e p="Login.js" t="Include" />
+                  <e p="Login.min.js" t="Include" />
+                  <e p="Register.js" t="Include" />
+                  <e p="Register.min.js" t="Include" />
+                </e>
+                <e p="Home" t="Include">
+                  <e p="Index.js" t="Include" />
+                </e>
+                <e p="Roles" t="Include">
+                  <e p="_EditModal.js" t="Include" />
+                  <e p="Index.js" t="Include" />
+                  <e p="Index.min.js" t="Include" />
+                </e>
+                <e p="Shared" t="Include">
+                  <e p="_Layout.css" t="Include" />
+                  <e p="_Layout.scss" t="Include" />
+                  <e p="Components" t="Include">
+                    <e p="TenantChange" t="Include">
+                      <e p="_ChangeModal.js" t="Include" />
+                      <e p="_ChangeModal.min.js" t="Include" />
+                      <e p="Default.js" t="Include" />
+                      <e p="Default.min.js" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="Tenants" t="Include">
+                  <e p="_EditModal.js" t="Include" />
+                  <e p="Index.js" t="Include" />
+                  <e p="Index.min.js" t="Include" />
+                </e>
+                <e p="Users" t="Include">
+                  <e p="_EditModal.js" t="Include" />
+                  <e p="ChangePassword.js" t="Include" />
+                  <e p="ChangePassword.min.js" t="Include" />
+                  <e p="Index.js" t="Include" />
+                  <e p="Index.min.js" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Xprema.ERP.Web.Mvc.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="test" t="Include">
+        <e p="Xprema.ERP.Tests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="DependencyInjection" t="Include">
+            <e p="ServiceCollectionRegistrar.cs" t="Include" />
+          </e>
+          <e p="ERPTestBase.cs" t="Include" />
+          <e p="ERPTestModule.cs" t="Include" />
+          <e p="MultiTenantFactAttribute.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Tests.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Sessions" t="Include">
+            <e p="SessionAppService_Tests.cs" t="Include" />
+          </e>
+          <e p="Users" t="Include">
+            <e p="UserAppService_Tests.cs" t="Include" />
+          </e>
+          <e p="Xprema.ERP.Tests.csproj" t="IncludeRecursive" />
+        </e>
+        <e p="Xprema.ERP.Web.Tests" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Controllers" t="Include">
+            <e p="HomeController_Tests.cs" t="Include" />
+          </e>
+          <e p="ERPWebTestBase.cs" t="Include" />
+          <e p="ERPWebTestModule.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.ERP.Web.Tests.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Startup.cs" t="Include" />
+          <e p="Xprema.ERP.Web.Tests.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="Xprema.ERP.sln" t="IncludeFlat" />
+    </e>
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Xprema.ERP.-472694016.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.deps.json
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.runtimeconfig.json
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.runtimeconfig.dev.json
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csprojAssemblyReference.cache
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll.config
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.AssemblyInfoInputs.cache
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.AssemblyInfo.cs
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csproj.CopyComplete
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.genruntimeconfig.cache

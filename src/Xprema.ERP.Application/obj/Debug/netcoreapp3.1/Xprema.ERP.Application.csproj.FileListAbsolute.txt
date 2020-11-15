@@ -1,0 +1,12 @@
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.deps.json
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.csprojAssemblyReference.cache
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.AssemblyInfoInputs.cache
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.AssemblyInfo.cs
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.csproj.CopyComplete
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.dll
+/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb

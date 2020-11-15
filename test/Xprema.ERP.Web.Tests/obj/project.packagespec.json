@@ -1,0 +1,97 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mac/Desktop/XpremaERPX/test/Xprema.ERP.Web.Tests/Xprema.ERP.Web.Tests.csproj",
+    "projectName": "Xprema.ERP.Web.Tests",
+    "projectPath": "/Users/mac/Desktop/XpremaERPX/test/Xprema.ERP.Web.Tests/Xprema.ERP.Web.Tests.csproj",
+    "outputPath": "/Users/mac/Desktop/XpremaERPX/test/Xprema.ERP.Web.Tests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {},
+      "https://nuget.devexpress.com/q8md4EXDFImLQYJdcKe39pzVJRRRP2LXsEMcFl9ioi7dnxcywK/api": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/Xprema.ERP.Web.Mvc.csproj": {
+            "projectPath": "/Users/mac/Desktop/XpremaERPX/src/Xprema.ERP.Web.Mvc/Xprema.ERP.Web.Mvc.csproj"
+          },
+          "/Users/mac/Desktop/XpremaERPX/test/Xprema.ERP.Tests/Xprema.ERP.Tests.csproj": {
+            "projectPath": "/Users/mac/Desktop/XpremaERPX/test/Xprema.ERP.Tests/Xprema.ERP.Tests.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Abp.AspNetCore.TestBase": {
+          "target": "Package",
+          "version": "[5.13.0, )"
+        },
+        "AngleSharp": {
+          "target": "Package",
+          "version": "[0.14.0, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.6.1, )"
+        },
+        "NSubstitute": {
+          "target": "Package",
+          "version": "[4.2.1, )"
+        },
+        "Shouldly": {
+          "target": "Package",
+          "version": "[3.0.2, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.extensibility.execution": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.4.1, )"
+        }
+      },
+      "imports": [
+        "portable-net45+win8+wp8+wpa81",
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+    }
+  }
+}
