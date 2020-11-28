@@ -1481,6 +1481,260 @@ namespace Xprema.ERP.Migrations
                     b.ToTable("AbpUsers");
                 });
 
+            modelBuilder.Entity("Xprema.ERP.Common.Address", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Address1")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("Address2")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CountyId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("DeleterUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletionTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatorUserId");
+
+                    b.HasIndex("DeleterUserId");
+
+                    b.HasIndex("LastModifierUserId");
+
+                    b.ToTable("Addresses");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Common.Country", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Code")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("CountryName")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("DeleterUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletionTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Flag")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatorUserId");
+
+                    b.HasIndex("DeleterUserId");
+
+                    b.HasIndex("LastModifierUserId");
+
+                    b.ToTable("Countries");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Common.County", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Code")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CountyName")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("DeleterUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletionTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Language")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CountryId");
+
+                    b.HasIndex("CreatorUserId");
+
+                    b.HasIndex("DeleterUserId");
+
+                    b.HasIndex("LastModifierUserId");
+
+                    b.ToTable("Counties");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Managments.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("DeleterUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletionTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Logo")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatorUserId");
+
+                    b.HasIndex("DeleterUserId");
+
+                    b.HasIndex("LastModifierUserId");
+
+                    b.ToTable("Companies");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Managments.CompanyAddress", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("AddressId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CompanyId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long?>("DeleterUserId")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletionTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AddressId");
+
+                    b.HasIndex("CompanyId")
+                        .IsUnique();
+
+                    b.HasIndex("CreatorUserId");
+
+                    b.HasIndex("DeleterUserId");
+
+                    b.HasIndex("LastModifierUserId");
+
+                    b.ToTable("CompanyAddresses");
+                });
+
             modelBuilder.Entity("Xprema.ERP.MultiTenancy.Tenant", b =>
                 {
                     b.Property<int>("Id")
@@ -1726,6 +1980,99 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Xprema.ERP.Authorization.Users.User", b =>
                 {
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "CreatorUser")
+                        .WithMany()
+                        .HasForeignKey("CreatorUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "DeleterUser")
+                        .WithMany()
+                        .HasForeignKey("DeleterUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "LastModifierUser")
+                        .WithMany()
+                        .HasForeignKey("LastModifierUserId");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Common.Address", b =>
+                {
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "CreatorUser")
+                        .WithMany()
+                        .HasForeignKey("CreatorUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "DeleterUser")
+                        .WithMany()
+                        .HasForeignKey("DeleterUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "LastModifierUser")
+                        .WithMany()
+                        .HasForeignKey("LastModifierUserId");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Common.Country", b =>
+                {
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "CreatorUser")
+                        .WithMany()
+                        .HasForeignKey("CreatorUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "DeleterUser")
+                        .WithMany()
+                        .HasForeignKey("DeleterUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "LastModifierUser")
+                        .WithMany()
+                        .HasForeignKey("LastModifierUserId");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Common.County", b =>
+                {
+                    b.HasOne("Xprema.ERP.Common.Country", "Country")
+                        .WithMany()
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "CreatorUser")
+                        .WithMany()
+                        .HasForeignKey("CreatorUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "DeleterUser")
+                        .WithMany()
+                        .HasForeignKey("DeleterUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "LastModifierUser")
+                        .WithMany()
+                        .HasForeignKey("LastModifierUserId");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Managments.Company", b =>
+                {
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "CreatorUser")
+                        .WithMany()
+                        .HasForeignKey("CreatorUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "DeleterUser")
+                        .WithMany()
+                        .HasForeignKey("DeleterUserId");
+
+                    b.HasOne("Xprema.ERP.Authorization.Users.User", "LastModifierUser")
+                        .WithMany()
+                        .HasForeignKey("LastModifierUserId");
+                });
+
+            modelBuilder.Entity("Xprema.ERP.Managments.CompanyAddress", b =>
+                {
+                    b.HasOne("Xprema.ERP.Common.Address", "Address")
+                        .WithMany()
+                        .HasForeignKey("AddressId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Xprema.ERP.Managments.Company", "Company")
+                        .WithOne("Address")
+                        .HasForeignKey("Xprema.ERP.Managments.CompanyAddress", "CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Xprema.ERP.Authorization.Users.User", "CreatorUser")
                         .WithMany()
                         .HasForeignKey("CreatorUserId");
