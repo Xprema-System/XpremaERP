@@ -920,7 +920,7 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Abp.Notifications.NotificationInfo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -977,7 +977,7 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Abp.Notifications.NotificationSubscriptionInfo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -1020,7 +1020,7 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Abp.Notifications.TenantNotificationInfo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -1070,7 +1070,7 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Abp.Notifications.UserNotificationInfo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -1083,7 +1083,8 @@ namespace Xprema.ERP.Migrations
                     b.Property<int?>("TenantId")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("TenantNotificationId")
+                    b.Property<string>("TenantNotificationId")
+                        .IsRequired()
                         .HasColumnType("char(36)");
 
                     b.Property<long>("UserId")
@@ -1183,7 +1184,7 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Abp.Webhooks.WebhookEvent", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -1213,7 +1214,7 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Abp.Webhooks.WebhookSendAttempt", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -1232,10 +1233,12 @@ namespace Xprema.ERP.Migrations
                     b.Property<int?>("TenantId")
                         .HasColumnType("int");
 
-                    b.Property<Guid>("WebhookEventId")
+                    b.Property<string>("WebhookEventId")
+                        .IsRequired()
                         .HasColumnType("char(36)");
 
-                    b.Property<Guid>("WebhookSubscriptionId")
+                    b.Property<string>("WebhookSubscriptionId")
+                        .IsRequired()
                         .HasColumnType("char(36)");
 
                     b.HasKey("Id");
@@ -1247,7 +1250,7 @@ namespace Xprema.ERP.Migrations
 
             modelBuilder.Entity("Abp.Webhooks.WebhookSubscriptionInfo", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 

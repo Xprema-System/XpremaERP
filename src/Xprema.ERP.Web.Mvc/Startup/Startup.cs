@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -16,8 +17,10 @@ using Xprema.ERP.Web.Resources;
 using Abp.AspNetCore.SignalR.Hubs;
 using Abp.Dependency;
 using Abp.Json;
+using Abp.PlugIns;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Serialization;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 
 namespace Xprema.ERP.Web.Startup
@@ -25,9 +28,10 @@ namespace Xprema.ERP.Web.Startup
     public class Startup
     {
         private readonly IConfigurationRoot _appConfiguration;
-
-        public Startup(IWebHostEnvironment env)
+        private readonly IHostingEnvironment _hostingEnvironment;
+        public Startup(IWebHostEnvironment env, IHostingEnvironment hostingEnvironment)
         {
+            _hostingEnvironment = hostingEnvironment;
             _appConfiguration = env.GetAppConfiguration();
         }
 
@@ -60,9 +64,13 @@ namespace Xprema.ERP.Web.Startup
             // Configure Abp and Dependency Injection
             return services.AddAbp<ERPWebMvcModule>(
                 // Configure Log4Net logging
-                options => options.IocManager.IocContainer.AddFacility<LoggingFacility>(
-                    f => f.UseAbpLog4Net().WithConfig("log4net.config")
-                )
+                options =>
+                {
+                    options.IocManager.IocContainer.AddFacility<LoggingFacility>(
+                        f => f.UseAbpLog4Net().WithConfig("log4net.config")
+                    );
+                    options.PlugInSources.AddFolder(Path.Combine(_hostingEnvironment.WebRootPath, "Plugins"), SearchOption.AllDirectories);
+                }
             );
         }
 

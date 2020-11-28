@@ -10,6 +10,7 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="src" t="Include">
+        <e p="modules" t="Include" />
         <e p="Xprema.ERP.Application" t="IncludeRecursive">
           <e p="AppConsts.cs" t="Include" />
           <e p="Authorization" t="Include">
@@ -176,10 +177,6 @@
               <e p="ERP.xml" t="Include" />
             </e>
           </e>
-          <e p="Managments" t="Include">
-            <e p="Company.cs" t="Include" />
-            <e p="CompnayAddress.cs" t="Include" />
-          </e>
           <e p="MultiTenancy" t="Include">
             <e p="Tenant.cs" t="Include" />
             <e p="TenantManager.cs" t="Include" />
@@ -270,6 +267,42 @@
           </e>
           <e p="Xprema.ERP.Migrator.csproj" t="IncludeRecursive" />
         </e>
+        <e p="Xprema.Erp.Plugin.HR" t="IncludeRecursive">
+          <e p="data" t="Include">
+            <e p="AbpZeroDbMigrator.cs" t="Include" />
+            <e p="ERPDbContext.cs" t="Include" />
+            <e p="ERPDbContextConfigurer.cs" t="Include" />
+            <e p="ERPDbContextFactory.cs" t="Include" />
+          </e>
+          <e p="DeleteOldAuditLogsWorker.cs" t="Include" />
+          <e p="Domains" t="Include">
+            <e p="Managments" t="Include">
+              <e p="Branchs" t="Include">
+                <e p="Branch.cs" t="Include" />
+                <e p="BranchAddress.cs" t="Include" />
+              </e>
+              <e p="Companies" t="Include">
+                <e p="Company.cs" t="Include" />
+                <e p="CompnayAddress.cs" t="Include" />
+              </e>
+              <e p="Profiles" t="Include">
+                <e p="Department.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="HrModule.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.1" t="Include">
+                <e p="Xprema.Erp.Plugin.HR.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="TableMapping" t="Include">
+            <e p="Company.cs" t="Include" />
+          </e>
+          <e p="Xprema.Erp.Plugin.HR.csproj" t="IncludeRecursive" />
+        </e>
         <e p="Xprema.ERP.Web.Core" t="IncludeRecursive">
           <e p="Authentication" t="Include">
             <e p="External" t="Include">
@@ -348,6 +381,9 @@
             <e p="Startup.cs" t="Include" />
           </e>
           <e p="wwwroot" t="Include">
+            <e p="plugins" t="Include">
+              <e p="Xprema.Erp.Plugin.HR.dll" t="Include" />
+            </e>
             <e p="swagger" t="Include">
               <e p="Ui" t="Include">
                 <e p="abp.js" t="Include" />
@@ -5125,6 +5161,290 @@
               </e>
               <e p="spin" t="Include">
                 <e p="jquery.spin.js" t="Include" />
+              </e>
+            </e>
+            <e p="plugins" t="Include">
+              <e p="XpremaHR" t="ExcludeRecursive">
+                <e p="refs" t="Include">
+                  <e p="Microsoft.AspNetCore.Antiforgery.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Authentication.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Authentication.Cookies.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Authentication.Core.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Authentication.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Authentication.OAuth.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Authorization.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Authorization.Policy.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Components.Authorization.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Components.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Components.Forms.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Components.Server.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Components.Web.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Connections.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.CookiePolicy.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Cors.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Cryptography.Internal.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.DataProtection.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.DataProtection.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.DataProtection.Extensions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Diagnostics.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Diagnostics.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Diagnostics.HealthChecks.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.HostFiltering.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Hosting.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Hosting.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Html.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Http.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Http.Connections.Common.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Http.Connections.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Http.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Http.Extensions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Http.Features.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.HttpOverrides.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.HttpsPolicy.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Identity.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Localization.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Localization.Routing.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Metadata.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.ApiExplorer.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.Core.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.Cors.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.DataAnnotations.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.Formatters.Json.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.Formatters.Xml.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.Localization.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.Razor.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.RazorPages.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.TagHelpers.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Mvc.ViewFeatures.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Razor.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Razor.Runtime.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.ResponseCaching.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.ResponseCompression.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Rewrite.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Routing.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Routing.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Server.HttpSys.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Server.IIS.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Server.IISIntegration.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Server.Kestrel.Core.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Server.Kestrel.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.Session.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.SignalR.Common.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.SignalR.Core.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.SignalR.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.SignalR.Protocols.Json.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.StaticFiles.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.WebSockets.dll" t="Include" />
+                  <e p="Microsoft.AspNetCore.WebUtilities.dll" t="Include" />
+                  <e p="Microsoft.CSharp.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.CommandLine.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.EnvironmentVariables.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.FileExtensions.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.Ini.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.Json.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.KeyPerFile.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.UserSecrets.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Configuration.Xml.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Diagnostics.HealthChecks.dll" t="Include" />
+                  <e p="Microsoft.Extensions.FileProviders.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.Extensions.FileProviders.Composite.dll" t="Include" />
+                  <e p="Microsoft.Extensions.FileProviders.Embedded.dll" t="Include" />
+                  <e p="Microsoft.Extensions.FileProviders.Physical.dll" t="Include" />
+                  <e p="Microsoft.Extensions.FileSystemGlobbing.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Hosting.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Hosting.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Http.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Identity.Core.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Identity.Stores.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Localization.Abstractions.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Localization.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Logging.Configuration.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Logging.Console.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Logging.Debug.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Logging.EventLog.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Logging.EventSource.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Logging.TraceSource.dll" t="Include" />
+                  <e p="Microsoft.Extensions.ObjectPool.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Options.ConfigurationExtensions.dll" t="Include" />
+                  <e p="Microsoft.Extensions.Options.DataAnnotations.dll" t="Include" />
+                  <e p="Microsoft.Extensions.WebEncoders.dll" t="Include" />
+                  <e p="Microsoft.JSInterop.dll" t="Include" />
+                  <e p="Microsoft.Net.Http.Headers.dll" t="Include" />
+                  <e p="Microsoft.VisualBasic.Core.dll" t="Include" />
+                  <e p="Microsoft.VisualBasic.dll" t="Include" />
+                  <e p="Microsoft.Win32.Primitives.dll" t="Include" />
+                  <e p="Microsoft.Win32.Registry.dll" t="Include" />
+                  <e p="mscorlib.dll" t="Include" />
+                  <e p="netstandard.dll" t="Include" />
+                  <e p="System.AppContext.dll" t="Include" />
+                  <e p="System.Buffers.dll" t="Include" />
+                  <e p="System.Collections.Concurrent.dll" t="Include" />
+                  <e p="System.Collections.dll" t="Include" />
+                  <e p="System.Collections.NonGeneric.dll" t="Include" />
+                  <e p="System.Collections.Specialized.dll" t="Include" />
+                  <e p="System.ComponentModel.Annotations.dll" t="Include" />
+                  <e p="System.ComponentModel.DataAnnotations.dll" t="Include" />
+                  <e p="System.ComponentModel.dll" t="Include" />
+                  <e p="System.ComponentModel.EventBasedAsync.dll" t="Include" />
+                  <e p="System.ComponentModel.Primitives.dll" t="Include" />
+                  <e p="System.ComponentModel.TypeConverter.dll" t="Include" />
+                  <e p="System.Configuration.dll" t="Include" />
+                  <e p="System.Console.dll" t="Include" />
+                  <e p="System.Core.dll" t="Include" />
+                  <e p="System.Data.Common.dll" t="Include" />
+                  <e p="System.Data.DataSetExtensions.dll" t="Include" />
+                  <e p="System.Data.dll" t="Include" />
+                  <e p="System.Diagnostics.Contracts.dll" t="Include" />
+                  <e p="System.Diagnostics.Debug.dll" t="Include" />
+                  <e p="System.Diagnostics.EventLog.dll" t="Include" />
+                  <e p="System.Diagnostics.FileVersionInfo.dll" t="Include" />
+                  <e p="System.Diagnostics.Process.dll" t="Include" />
+                  <e p="System.Diagnostics.StackTrace.dll" t="Include" />
+                  <e p="System.Diagnostics.TextWriterTraceListener.dll" t="Include" />
+                  <e p="System.Diagnostics.Tools.dll" t="Include" />
+                  <e p="System.Diagnostics.TraceSource.dll" t="Include" />
+                  <e p="System.Diagnostics.Tracing.dll" t="Include" />
+                  <e p="System.dll" t="Include" />
+                  <e p="System.Drawing.dll" t="Include" />
+                  <e p="System.Drawing.Primitives.dll" t="Include" />
+                  <e p="System.Dynamic.Runtime.dll" t="Include" />
+                  <e p="System.Globalization.Calendars.dll" t="Include" />
+                  <e p="System.Globalization.dll" t="Include" />
+                  <e p="System.Globalization.Extensions.dll" t="Include" />
+                  <e p="System.IO.Compression.Brotli.dll" t="Include" />
+                  <e p="System.IO.Compression.dll" t="Include" />
+                  <e p="System.IO.Compression.FileSystem.dll" t="Include" />
+                  <e p="System.IO.Compression.ZipFile.dll" t="Include" />
+                  <e p="System.IO.dll" t="Include" />
+                  <e p="System.IO.FileSystem.dll" t="Include" />
+                  <e p="System.IO.FileSystem.DriveInfo.dll" t="Include" />
+                  <e p="System.IO.FileSystem.Primitives.dll" t="Include" />
+                  <e p="System.IO.FileSystem.Watcher.dll" t="Include" />
+                  <e p="System.IO.IsolatedStorage.dll" t="Include" />
+                  <e p="System.IO.MemoryMappedFiles.dll" t="Include" />
+                  <e p="System.IO.Pipelines.dll" t="Include" />
+                  <e p="System.IO.Pipes.dll" t="Include" />
+                  <e p="System.IO.UnmanagedMemoryStream.dll" t="Include" />
+                  <e p="System.Linq.dll" t="Include" />
+                  <e p="System.Linq.Expressions.dll" t="Include" />
+                  <e p="System.Linq.Parallel.dll" t="Include" />
+                  <e p="System.Linq.Queryable.dll" t="Include" />
+                  <e p="System.Memory.dll" t="Include" />
+                  <e p="System.Net.dll" t="Include" />
+                  <e p="System.Net.Http.dll" t="Include" />
+                  <e p="System.Net.HttpListener.dll" t="Include" />
+                  <e p="System.Net.Mail.dll" t="Include" />
+                  <e p="System.Net.NameResolution.dll" t="Include" />
+                  <e p="System.Net.NetworkInformation.dll" t="Include" />
+                  <e p="System.Net.Ping.dll" t="Include" />
+                  <e p="System.Net.Primitives.dll" t="Include" />
+                  <e p="System.Net.Requests.dll" t="Include" />
+                  <e p="System.Net.Security.dll" t="Include" />
+                  <e p="System.Net.ServicePoint.dll" t="Include" />
+                  <e p="System.Net.Sockets.dll" t="Include" />
+                  <e p="System.Net.WebClient.dll" t="Include" />
+                  <e p="System.Net.WebHeaderCollection.dll" t="Include" />
+                  <e p="System.Net.WebProxy.dll" t="Include" />
+                  <e p="System.Net.WebSockets.Client.dll" t="Include" />
+                  <e p="System.Net.WebSockets.dll" t="Include" />
+                  <e p="System.Numerics.dll" t="Include" />
+                  <e p="System.Numerics.Vectors.dll" t="Include" />
+                  <e p="System.ObjectModel.dll" t="Include" />
+                  <e p="System.Reflection.DispatchProxy.dll" t="Include" />
+                  <e p="System.Reflection.dll" t="Include" />
+                  <e p="System.Reflection.Emit.dll" t="Include" />
+                  <e p="System.Reflection.Emit.ILGeneration.dll" t="Include" />
+                  <e p="System.Reflection.Emit.Lightweight.dll" t="Include" />
+                  <e p="System.Reflection.Extensions.dll" t="Include" />
+                  <e p="System.Reflection.Metadata.dll" t="Include" />
+                  <e p="System.Reflection.Primitives.dll" t="Include" />
+                  <e p="System.Reflection.TypeExtensions.dll" t="Include" />
+                  <e p="System.Resources.Reader.dll" t="Include" />
+                  <e p="System.Resources.ResourceManager.dll" t="Include" />
+                  <e p="System.Resources.Writer.dll" t="Include" />
+                  <e p="System.Runtime.CompilerServices.Unsafe.dll" t="Include" />
+                  <e p="System.Runtime.CompilerServices.VisualC.dll" t="Include" />
+                  <e p="System.Runtime.dll" t="Include" />
+                  <e p="System.Runtime.Extensions.dll" t="Include" />
+                  <e p="System.Runtime.Handles.dll" t="Include" />
+                  <e p="System.Runtime.InteropServices.dll" t="Include" />
+                  <e p="System.Runtime.InteropServices.RuntimeInformation.dll" t="Include" />
+                  <e p="System.Runtime.InteropServices.WindowsRuntime.dll" t="Include" />
+                  <e p="System.Runtime.Intrinsics.dll" t="Include" />
+                  <e p="System.Runtime.Loader.dll" t="Include" />
+                  <e p="System.Runtime.Numerics.dll" t="Include" />
+                  <e p="System.Runtime.Serialization.dll" t="Include" />
+                  <e p="System.Runtime.Serialization.Formatters.dll" t="Include" />
+                  <e p="System.Runtime.Serialization.Json.dll" t="Include" />
+                  <e p="System.Runtime.Serialization.Primitives.dll" t="Include" />
+                  <e p="System.Runtime.Serialization.Xml.dll" t="Include" />
+                  <e p="System.Security.AccessControl.dll" t="Include" />
+                  <e p="System.Security.Claims.dll" t="Include" />
+                  <e p="System.Security.Cryptography.Algorithms.dll" t="Include" />
+                  <e p="System.Security.Cryptography.Cng.dll" t="Include" />
+                  <e p="System.Security.Cryptography.Csp.dll" t="Include" />
+                  <e p="System.Security.Cryptography.Encoding.dll" t="Include" />
+                  <e p="System.Security.Cryptography.Primitives.dll" t="Include" />
+                  <e p="System.Security.Cryptography.X509Certificates.dll" t="Include" />
+                  <e p="System.Security.Cryptography.Xml.dll" t="Include" />
+                  <e p="System.Security.dll" t="Include" />
+                  <e p="System.Security.Permissions.dll" t="Include" />
+                  <e p="System.Security.Principal.dll" t="Include" />
+                  <e p="System.Security.Principal.Windows.dll" t="Include" />
+                  <e p="System.Security.SecureString.dll" t="Include" />
+                  <e p="System.ServiceModel.Web.dll" t="Include" />
+                  <e p="System.ServiceProcess.dll" t="Include" />
+                  <e p="System.Text.Encoding.CodePages.dll" t="Include" />
+                  <e p="System.Text.Encoding.dll" t="Include" />
+                  <e p="System.Text.Encoding.Extensions.dll" t="Include" />
+                  <e p="System.Text.Encodings.Web.dll" t="Include" />
+                  <e p="System.Text.RegularExpressions.dll" t="Include" />
+                  <e p="System.Threading.Channels.dll" t="Include" />
+                  <e p="System.Threading.dll" t="Include" />
+                  <e p="System.Threading.Overlapped.dll" t="Include" />
+                  <e p="System.Threading.Tasks.Dataflow.dll" t="Include" />
+                  <e p="System.Threading.Tasks.dll" t="Include" />
+                  <e p="System.Threading.Tasks.Extensions.dll" t="Include" />
+                  <e p="System.Threading.Tasks.Parallel.dll" t="Include" />
+                  <e p="System.Threading.Thread.dll" t="Include" />
+                  <e p="System.Threading.ThreadPool.dll" t="Include" />
+                  <e p="System.Threading.Timer.dll" t="Include" />
+                  <e p="System.Transactions.dll" t="Include" />
+                  <e p="System.Transactions.Local.dll" t="Include" />
+                  <e p="System.ValueTuple.dll" t="Include" />
+                  <e p="System.Web.dll" t="Include" />
+                  <e p="System.Web.HttpUtility.dll" t="Include" />
+                  <e p="System.Windows.dll" t="Include" />
+                  <e p="System.Windows.Extensions.dll" t="Include" />
+                  <e p="System.Xml.dll" t="Include" />
+                  <e p="System.Xml.Linq.dll" t="Include" />
+                  <e p="System.Xml.ReaderWriter.dll" t="Include" />
+                  <e p="System.Xml.Serialization.dll" t="Include" />
+                  <e p="System.Xml.XDocument.dll" t="Include" />
+                  <e p="System.Xml.XmlDocument.dll" t="Include" />
+                  <e p="System.Xml.XmlSerializer.dll" t="Include" />
+                  <e p="System.Xml.XPath.dll" t="Include" />
+                  <e p="System.Xml.XPath.XDocument.dll" t="Include" />
+                  <e p="WindowsBase.dll" t="Include" />
+                </e>
+                <e p="Xprema.ERP.Application.dll" t="Include" />
+                <e p="Xprema.ERP.Application.pdb" t="Include" />
+                <e p="Xprema.ERP.Core.dll" t="Include" />
+                <e p="Xprema.ERP.Core.pdb" t="Include" />
+                <e p="Xprema.ERP.EntityFrameworkCore.dll" t="Include" />
+                <e p="Xprema.ERP.EntityFrameworkCore.dll.config" t="Include" />
+                <e p="Xprema.ERP.EntityFrameworkCore.pdb" t="Include" />
+                <e p="Xprema.Erp.Plugin.HR.deps.json" t="Include" />
+                <e p="Xprema.Erp.Plugin.HR.dll" t="Include" />
+                <e p="Xprema.Erp.Plugin.HR.pdb" t="Include" />
               </e>
             </e>
             <e p="scss" t="Include">

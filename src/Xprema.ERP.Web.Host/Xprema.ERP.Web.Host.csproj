@@ -42,4 +42,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\Plugins" />
+  </ItemGroup>
 </Project>

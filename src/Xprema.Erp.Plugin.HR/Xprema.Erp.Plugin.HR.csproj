@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputPath>..\Xprema.ERP.Web.Mvc\wwwroot\plugins\XpremaHR</OutputPath>
+        <OutDir>$(OutputPath)</OutDir>
+        <IncludeCopyLocalFilesOutputGroup>false</IncludeCopyLocalFilesOutputGroup>
+        <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+        <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+        <PublisherName>Xprema Systems</PublisherName>
+        <LangVersion>9</LangVersion>
+        <Nullable>enable</Nullable>
+        <Company>Xprema Systems</Company>
+        <Product>Xprema HR</Product>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+    </PropertyGroup>
+
+     
+
+    <ItemGroup>
+      <ProjectReference Include="..\Xprema.ERP.Application\Xprema.ERP.Application.csproj">
+          <Private>true</Private>
+      </ProjectReference>
+      <ProjectReference Include="..\Xprema.ERP.EntityFrameworkCore\Xprema.ERP.EntityFrameworkCore.csproj">
+          <Private>true</Private>
+      </ProjectReference>
+    </ItemGroup>
+
+     
+
+    <ItemGroup>
+      <PackageReference Include="Abp.AspNetCore" Version="5.13.0">
+          <Private>true</Private>
+      </PackageReference>
+      <PackageReference Include="Abp.AspNetCore.SignalR" Version="5.13.0">
+          <Private>true</Private>
+      </PackageReference>
+    </ItemGroup>
+
+     
+
+    <ItemGroup>
+      <Folder Include="Domains" />
+    </ItemGroup>
+
+</Project>

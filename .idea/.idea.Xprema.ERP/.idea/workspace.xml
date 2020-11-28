@@ -15,26 +15,329 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a26bc0e-0d79-43a3-81e2-c998422f2919" name="Default Changelist" comment="Support My Sql">
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Common/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Common/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Common/Country.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Common/County.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Common/Name.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Customers/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Customers/Country.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Customers/County.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Customers/CustomerGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Customers/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/Company.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/CompnayAddress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20201128170929_Add Common.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/Migrations/20201128170929_Add Common.cs" afterDir="false" />
+    <list default="true" id="7a26bc0e-0d79-43a3-81e2-c998422f2919" name="Default Changelist" comment="Add common Table + company profile">
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/wwwroot/Plugins/Xprema.Erp.Plugin.HR.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.ERP.Application.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.ERP.Application.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.ERP.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.ERP.Core.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.ERP.EntityFrameworkCore.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.Erp.Plugin.HR.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.Erp.Plugin.HR.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/Xprema.Erp.Plugin.HR.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Antiforgery.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Authentication.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Authentication.Cookies.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Authentication.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Authentication.OAuth.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Authentication.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Authorization.Policy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Authorization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Components.Authorization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Components.Forms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Components.Server.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Components.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Components.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Connections.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.CookiePolicy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Cors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.DataProtection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Diagnostics.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Diagnostics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.HostFiltering.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Hosting.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Html.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Http.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Http.Connections.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Http.Connections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Http.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Http.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.HttpOverrides.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.HttpsPolicy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Localization.Routing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Localization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.ApiExplorer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.Cors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.Formatters.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.Localization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.RazorPages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.TagHelpers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.ViewFeatures.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Razor.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.ResponseCaching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.ResponseCompression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Rewrite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Routing.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Routing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Server.HttpSys.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Server.IIS.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Server.IISIntegration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Server.Kestrel.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Server.Kestrel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.Session.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.SignalR.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.SignalR.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.SignalR.Protocols.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.SignalR.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.StaticFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.WebUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.CommandLine.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.Ini.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.KeyPerFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.UserSecrets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Configuration.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Diagnostics.HealthChecks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.FileProviders.Composite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.FileProviders.Embedded.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Hosting.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Localization.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Localization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Logging.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Logging.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Logging.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Logging.EventLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Logging.EventSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Logging.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.ObjectPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Options.ConfigurationExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.Options.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Extensions.WebEncoders.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.JSInterop.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Net.Http.Headers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.VisualBasic.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/Microsoft.Win32.Registry.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Collections.Concurrent.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Collections.NonGeneric.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Collections.Specialized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ComponentModel.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ComponentModel.EventBasedAsync.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ComponentModel.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ComponentModel.TypeConverter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ComponentModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Data.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Data.DataSetExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.EventLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.Process.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.TextWriterTraceListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.Tools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Diagnostics.Tracing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Drawing.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Dynamic.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Globalization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.Compression.Brotli.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.FileSystem.DriveInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.FileSystem.Watcher.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.IsolatedStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.MemoryMappedFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.Pipes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.UnmanagedMemoryStream.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.IO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Linq.Expressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Linq.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Linq.Queryable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.HttpListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.Mail.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.NameResolution.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.NetworkInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.Ping.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.Requests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.ServicePoint.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.WebClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.WebHeaderCollection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.WebProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.WebSockets.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.DispatchProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.Emit.ILGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.Emit.Lightweight.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.Emit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.TypeExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Reflection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Resources.Reader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Resources.ResourceManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Resources.Writer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.CompilerServices.VisualC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Handles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.InteropServices.WindowsRuntime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.InteropServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Intrinsics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Loader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Serialization.Formatters.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Serialization.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Serialization.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Claims.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Cryptography.Cng.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Cryptography.Csp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Cryptography.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.Principal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.SecureString.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ServiceModel.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ServiceProcess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Text.Encoding.CodePages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Text.Encoding.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Text.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Text.RegularExpressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Channels.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Overlapped.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Tasks.Dataflow.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Tasks.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Thread.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.ThreadPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.Timer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Threading.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Transactions.Local.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Web.HttpUtility.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.XmlSerializer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/WindowsBase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/wwwroot/Plugins/XpremaHR/refs/netstandard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Data/AbpZeroDbMigrator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Data/ERPDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Data/ERPDbContextConfigurer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Data/ERPDbContextFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/DeleteOldAuditLogsWorker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Branchs/Branch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Branchs/BranchAddress.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Profiles/Department.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/HrModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/TableMapping/Company.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Xprema.Erp.Plugin.HR.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp2.2/.NETCoreApp,Version=v2.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp2.2/Xprema.Erp.Plugin.HR.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp2.2/Xprema.Erp.Plugin.HR.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp2.2/Xprema.Erp.Plugin.HR.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp2.2/Xprema.Erp.Plugin.HR.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp3.1/Xprema.Erp.Plugin.HR.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp3.1/Xprema.Erp.Plugin.HR.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp3.1/Xprema.Erp.Plugin.HR.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp3.1/Xprema.Erp.Plugin.HR.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp3.1/Xprema.Erp.Plugin.HR.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Debug/netcoreapp3.1/Xprema.Erp.Plugin.HR.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Xprema.Erp.Plugin.HR.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Xprema.Erp.Plugin.HR.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Xprema.Erp.Plugin.HR.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/Xprema.Erp.Plugin.HR.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Xprema.ERP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xprema.ERP.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Xprema.ERP.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/Xprema.ERP.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/Xprema.ERP.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/Company.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Companies/Company.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/CompnayAddress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Companies/CompnayAddress.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -48,13 +351,24 @@
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Migrator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Migrator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Migrator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/bin/Debug/netcoreapp3.1/Xprema.ERP.Migrator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/Debug/netcoreapp3.1/Xprema.ERP.Migrator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Migrator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
@@ -63,11 +377,29 @@
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Core/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/Startup/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/Startup/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/Xprema.ERP.Web.Host.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/Xprema.ERP.Web.Host.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Host.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Views/Account/_Scripts.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Views/Account/_Scripts.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Views/Account/_Styles.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Views/Account/_Styles.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/App_Data/Logs/Logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/App_Data/Logs/Logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Startup/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Startup/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Xprema.ERP.Web.Mvc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Xprema.ERP.Web.Mvc.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
@@ -76,17 +408,45 @@
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Razor/Views/Account/_Scripts.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Razor/Views/Account/_Scripts.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Razor/Views/Account/_Styles.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Razor/Views/Account/_Styles.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.EntityFrameworkCore.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Mvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/Debug/netcoreapp3.1/Xprema.ERP.Web.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/Xprema.ERP.Web.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +480,29 @@
         <option value="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/CompnayAddress.cs" />
         <option value="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/Company.cs" />
         <option value="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/appsettings.json" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/Branchs/BranchAddress.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/Companies/Company.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/TableMapping/Company.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Core/Managments/Branchs/Branch.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Class1.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Web.Host/Startup/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/DeleteOldAuditLogsWorker.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.ERP.Web.Mvc/Startup/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Xprema.Erp.Plugin.HR.csproj" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Managments/Branchs/Branch.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Managments/Branchs/BranchAddress.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Managments/Companies/Company.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Managments/Companies/CompnayAddress.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Companies/CompnayAddress.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Branchs/Branch.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Companies/Company.cs" />
         <option value="$PROJECT_DIR$/src/Xprema.ERP.EntityFrameworkCore/EntityFrameworkCore/ERPDbContext.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Domains/Managments/Profiles/Department.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Data/ERPDbContext.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Data/AbpZeroDbMigrator.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/TableMapping/Company.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/Data/ERPDbContextConfigurer.cs" />
+        <option value="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/HrModule.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +518,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3496609" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29992464" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -229,7 +613,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605468647823</updated>
       <workItem from="1605468655067" duration="11972000" />
-      <workItem from="1606582144027" duration="1258000" />
+      <workItem from="1606582144027" duration="10268000" />
     </task>
     <task id="LOCAL-00001" summary="init work">
       <created>1605469300547</created>
@@ -252,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605476454737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add common Table + company profile">
+      <created>1606583585769</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606583585769</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +669,8 @@
     <MESSAGE value="init work" />
     <MESSAGE value="Create work" />
     <MESSAGE value="Support My Sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Support My Sql" />
+    <MESSAGE value="Add common Table + company profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add common Table + company profile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="308" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605473499769">
@@ -289,41 +681,128 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.23.1440.877@0.23.1440.877" timestamp="1605473630393" />
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1605553083310">
+    <state width="1358" height="297" key="GridCell.Tab.0.bottom" timestamp="1606601905975">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605553083310" />
-    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1605553083309">
+    <state width="1358" height="297" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606601905975" />
+    <state width="1358" height="297" key="GridCell.Tab.0.center" timestamp="1606601905974">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605553083309" />
-    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1605553083308">
+    <state width="1358" height="297" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606601905974" />
+    <state width="1358" height="297" key="GridCell.Tab.0.left" timestamp="1606601905973">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605553083308" />
-    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1605553083310">
+    <state width="1358" height="297" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606601905973" />
+    <state width="1358" height="297" key="GridCell.Tab.0.right" timestamp="1606601905974">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605553083310" />
+    <state width="1358" height="297" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606601905974" />
+    <state width="1358" height="297" key="GridCell.Tab.1.bottom" timestamp="1606601905977">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606601905977" />
+    <state width="1358" height="297" key="GridCell.Tab.1.center" timestamp="1606601905976">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1606601905976" />
+    <state width="1358" height="297" key="GridCell.Tab.1.left" timestamp="1606601905975">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1606601905975" />
+    <state width="1358" height="297" key="GridCell.Tab.1.right" timestamp="1606601905976">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1606601905976" />
+    <state width="1358" height="297" key="GridCell.Tab.2.bottom" timestamp="1606601905979">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606601905979" />
+    <state width="1358" height="297" key="GridCell.Tab.2.center" timestamp="1606601905978">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1606601905978" />
+    <state width="1358" height="297" key="GridCell.Tab.2.left" timestamp="1606601905977">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1606601905977" />
+    <state width="1358" height="297" key="GridCell.Tab.2.right" timestamp="1606601905978">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1606601905978" />
+    <state width="1358" height="297" key="GridCell.Tab.3.bottom" timestamp="1606601905981">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.3.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606601905981" />
+    <state width="1358" height="297" key="GridCell.Tab.3.center" timestamp="1606601905980">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.3.center/0.23.1440.877@0.23.1440.877" timestamp="1606601905980" />
+    <state width="1358" height="297" key="GridCell.Tab.3.left" timestamp="1606601905979">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.3.left/0.23.1440.877@0.23.1440.877" timestamp="1606601905979" />
+    <state width="1358" height="297" key="GridCell.Tab.3.right" timestamp="1606601905980">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1606601905980" />
+    <state width="1358" height="297" key="GridCell.Tab.4.bottom" timestamp="1606601905982">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.4.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606601905982" />
+    <state width="1358" height="297" key="GridCell.Tab.4.center" timestamp="1606601905982">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.4.center/0.23.1440.877@0.23.1440.877" timestamp="1606601905982" />
+    <state width="1358" height="297" key="GridCell.Tab.4.left" timestamp="1606601905981">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.4.left/0.23.1440.877@0.23.1440.877" timestamp="1606601905981" />
+    <state width="1358" height="297" key="GridCell.Tab.4.right" timestamp="1606601905982">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="297" key="GridCell.Tab.4.right/0.23.1440.877@0.23.1440.877" timestamp="1606601905982" />
     <state width="286" height="455" key="HiddenNamespacesPopup" timestamp="1605476126343">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="286" height="455" key="HiddenNamespacesPopup/0.23.1440.877@0.23.1440.877" timestamp="1605476126343" />
-    <state x="534" y="134" key="RiderGenerateDialog" timestamp="1605552788692">
+    <state x="308" y="180" key="Rider.ProjectTemplateDialog.Size" timestamp="1606586931645">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="534" y="134" key="RiderGenerateDialog/0.23.1440.877@0.23.1440.877" timestamp="1605552788692" />
-    <state x="308" y="181" key="Vcs.Push.Dialog.v2" timestamp="1605476508741">
+    <state x="308" y="180" key="Rider.ProjectTemplateDialog.Size/0.23.1440.877@0.23.1440.877" timestamp="1606586931645" />
+    <state x="534" y="134" key="RiderGenerateDialog" timestamp="1606588742474">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="308" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605476508741" />
+    <state x="534" y="134" key="RiderGenerateDialog/0.23.1440.877@0.23.1440.877" timestamp="1606588742474" />
+    <state x="308" y="181" key="Vcs.Push.Dialog.v2" timestamp="1606583834884">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="308" y="181" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1606583834884" />
     <state x="546" y="336" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1605476145105">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="546" y="336" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1440.877@0.23.1440.877" timestamp="1605476145105" />
-    <state x="542" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605476422946">
+    <state x="542" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606583541594">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="542" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1605476422946" />
+    <state x="542" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1606583541594" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/HrModule.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/src/Xprema.Erp.Plugin.HR/HrModule.cs" initialLine="27">
+            <startOffsets>
+              <option value="1355" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1356" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

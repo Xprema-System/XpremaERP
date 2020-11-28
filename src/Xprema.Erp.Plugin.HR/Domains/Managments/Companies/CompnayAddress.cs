@@ -2,7 +2,7 @@ using Abp.Domain.Entities.Auditing;
 using Xprema.ERP.Authorization.Users;
 using Xprema.ERP.Common;
 
-namespace Xprema.ERP.Managments
+namespace Xprema.Erp.Plugin.HR.Domains.Managments.Companies
 {
     public class CompanyAddress:BaseEntity,IFullAudited<User>
     {
