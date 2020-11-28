@@ -5089,3 +5089,14 @@ INFO  2020-11-29 02:11:15,892 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker -
 INFO  2020-11-29 02:11:20,906 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
 INFO  2020-11-29 02:11:25,926 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
 INFO  2020-11-29 02:11:30,941 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:11:35,959 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:11:40,973 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:11:45,985 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:11:50,995 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:11:56,008 [52   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:12:01,021 [58   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:12:06,037 [60   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:12:11,052 [58   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:12:16,062 [60   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:12:21,073 [58   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
+INFO  2020-11-29 02:12:26,091 [58   ] a.Erp.Plugin.HR.DeleteOldAuditLogsWorker - ---------------- DeleteOldAuditLogsWorker is working ----------------
